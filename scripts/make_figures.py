@@ -151,10 +151,10 @@ def fig_rates_arena():
     ax = axes[2]
     paths = np.load(os.path.join(RES, "raw", "e4a_paths.npz"))
     # one marker shape per claim; filled on the forged-vote (solid) line, hollow on the flipped-vote (dashed) one
-    show = [("llama-3-70b-instruct__llama-3-8b-instruct", "Llama-3-70B > Llama-3-8B", "#2a78d6", "o"),
-            ("gpt-4o-2024-05-13__llama-3-70b-instruct", "GPT-4o > Llama-3-70B", "#1baf7a", "s"),
-            ("claude-3-opus-20240229__claude-3-sonnet-20240229", "Claude-3-Opus > Claude-3-Sonnet", "#4a3aa7", "^"),
-            ("claude-3-sonnet-20240229__claude-3-haiku-20240307", "Claude-3-Sonnet > Claude-3-Haiku", "#eb6834", "D")]
+    show = [("llama-3-70b-instruct__llama-3-8b-instruct", "Llama-3-70B over Llama-3-8B", "#2a78d6", "o"),
+            ("gpt-4o-2024-05-13__llama-3-70b-instruct", "GPT-4o over Llama-3-70B", "#1baf7a", "s"),
+            ("claude-3-opus-20240229__claude-3-sonnet-20240229", "Claude-3-Opus over Claude-3-Sonnet", "#4a3aa7", "^"),
+            ("claude-3-sonnet-20240229__claude-3-haiku-20240307", "Claude-3-Sonnet over Claude-3-Haiku", "#eb6834", "D")]
     for c, (key, lab, col, marker) in enumerate(show):
         bi, br, ts = paths[key]
         dates = pd.to_datetime(ts, unit="s")
