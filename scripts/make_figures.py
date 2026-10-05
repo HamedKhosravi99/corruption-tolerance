@@ -323,7 +323,7 @@ FRONTIER_NAMES = {"claude-opus-4": "Claude Opus 4", "claude-sonnet-4": "Claude S
 def fig_frontier():
     """E8: the six highest-scoring models of each frontier benchmark. Cell (row, column): simultaneous
     certificate (contaminated items; closed testing over all ordered pairs of the benchmark's models)
-    of "row has had an edge over column", or empty if not certified. Last column: the certified rank bound, one plus
+    of "row has ever had an edge over column", or empty if not certified. Last column: the certified rank bound, one plus
     the number of models certified above the row model (among all models of the benchmark), the
     analogue of Arena's approximate ranking."""
     K = 6
@@ -370,7 +370,7 @@ def fig_frontier():
     x0 = (axes.flat[2].get_tightbbox(fig.canvas.get_renderer()).x0 + 0.08 * fig.dpi) / fig.bbox.width
     kp = key.get_position()
     fig.text(x0, kp.y0 + 0.62 * kp.height, "Row: model and score (%).\n"
-             "Cell: tolerance in contaminated items\nfor \"row has had an edge over column\",\nsimultaneous over all pairs.\n"
+             "Cell: tolerance in contaminated items\nfor \"row has ever had an edge over\ncolumn\", simultaneous over all pairs.\n"
              "Empty cell: not certified.\n"
              "Rank bound: 1 + number of\nmodels certified above the row.",
              fontsize=6.8, va="center", ha="left", color="#0b0b0b", linespacing=1.35)
