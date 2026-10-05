@@ -92,7 +92,7 @@ def fig_validity():
     fig, axes = plt.subplots(1, 3, figsize=(6.75, 1.75), sharey=True)
     methods = ["naive", "perstep", "ins", "avg_ins", "rep", "avg_rep"]   # all six methods in every panel
     plot_rate(axes[0], df, "burst_trigger", methods, "(a) Burst of forged wins")
-    plot_rate(axes[1], df, "online_replace", methods, "(b) Honest losses flipped")
+    plot_rate(axes[1], df, "online_replace", methods, "(b) Losses flipped")
     plot_rate(axes[2], df, "spread", methods, "(c) Forged wins at random times")
     axes[0].set_ylabel(r"$\mathbb{P}$(some false statement)")
     h, l = axes[1].get_legend_handles_labels()
