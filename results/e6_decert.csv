@@ -1,0 +1,13 @@
+leader,other,n,wins,attack,cost,B_clean,decert_budget
+llama-3-70b-instruct,llama-3-8b-instruct,14858,5042,insert_losses,ins,2056,1986
+llama-3-70b-instruct,llama-3-8b-instruct,14858,5042,insert_losses,rep,1009,1986
+llama-3-70b-instruct,llama-3-8b-instruct,14858,5042,flip_wins,ins,2056,1010
+llama-3-70b-instruct,llama-3-8b-instruct,14858,5042,flip_wins,rep,1009,1010
+llama-3-70b-instruct,snowflake-arctic-instruct,6418,3085,insert_losses,ins,1771,1689
+llama-3-70b-instruct,snowflake-arctic-instruct,6418,3085,insert_losses,rep,862,1689
+llama-3-70b-instruct,snowflake-arctic-instruct,6418,3085,flip_wins,ins,1771,863
+llama-3-70b-instruct,snowflake-arctic-instruct,6418,3085,flip_wins,rep,862,863
+gemini-1.5-pro-api-0409-preview,llama-3-8b-instruct,7292,3318,insert_losses,ins,1621,1551
+gemini-1.5-pro-api-0409-preview,llama-3-8b-instruct,7292,3318,insert_losses,rep,791,1551
+gemini-1.5-pro-api-0409-preview,llama-3-8b-instruct,7292,3318,flip_wins,ins,1621,792
+gemini-1.5-pro-api-0409-preview,llama-3-8b-instruct,7292,3318,flip_wins,rep,791,792

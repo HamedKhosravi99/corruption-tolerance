@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+# Chatbot Arena data are not redistributed (see data/arena/README.md)
+data/arena/*.json
+data/arena/*.csv.gz
+# HTCondor output files (logs of the runs are kept as results/logs/*_log.txt)
+results/logs/*.out
+results/logs/*.err
+results/logs/*.log

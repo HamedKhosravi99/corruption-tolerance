@@ -1,0 +1,4 @@
+1 [{'k': 1, 'method': 'naive', 'rate': 0.02925, 'se': np.float64(0.0026643215599848305)}, {'k': 1, 'method': 'corrected', 'rate': 0.02925, 'se': np.float64(0.0026643215599848305)}]
+3 [{'k': 3, 'method': 'naive', 'rate': 0.0855, 'se': np.float64(0.0044212484096689255)}, {'k': 3, 'method': 'corrected', 'rate': 0.028, 'se': np.float64(0.002608447814314099)}]
+9 [{'k': 9, 'method': 'naive', 'rate': 0.233, 'se': np.float64(0.006684141680126178)}, {'k': 9, 'method': 'corrected', 'rate': 0.0265, 'se': np.float64(0.0025395742753461653)}]
+27 [{'k': 27, 'method': 'naive', 'rate': 0.519, 'se': np.float64(0.007899984177199344)}, {'k': 27, 'method': 'corrected', 'rate': 0.025, 'se': np.float64(0.0024685522072664372)}]

@@ -1,0 +1,6 @@
+votes: 1,799,991
+models: 129
+first vote: 2023-04-24, last vote: 2024-08-14
+anonymous battles: 1,799,991
+ties (tie or tie (bothbad)): 642,854 = 0.3571 of all votes
+  of which tie (bothbad): 306,370

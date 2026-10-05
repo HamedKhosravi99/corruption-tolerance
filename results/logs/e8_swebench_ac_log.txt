@@ -1,0 +1,343 @@
+Claude 4.5 Haiku (high) Claude 4.5 Opus (high) -1 -1
+Claude 4.5 Haiku (high) Claude 4.5 Sonnet (high) -1 -1
+Claude 4.5 Haiku (high) Claude 4.6 Opus -1 -1
+Claude 4.5 Haiku (high) DeepSeek V3.2 (high) -1 -1
+Claude 4.5 Haiku (high) Gemini 3 Flash (high) -1 -1
+Claude 4.5 Haiku (high) GLM 5 (high) -1 -1
+Claude 4.5 Haiku (high) GPT 5.2 (high) -1 -1
+Claude 4.5 Haiku (high) GPT 5 mini 26 10
+Claude 4.5 Haiku (high) Kimi K2.5 (high) -1 -1
+Claude 4.5 Haiku (high) MiniMax M2.5 (high) -1 -1
+Claude 4.5 Opus (high) Claude 4.5 Haiku (high) 31 12
+Claude 4.5 Opus (high) Claude 4.5 Sonnet (high) 7 2
+Claude 4.5 Opus (high) Claude 4.6 Opus -1 -1
+Claude 4.5 Opus (high) DeepSeek V3.2 (high) 12 4
+Claude 4.5 Opus (high) Gemini 3 Flash (high) -1 -1
+Claude 4.5 Opus (high) GLM 5 (high) -1 -1
+Claude 4.5 Opus (high) GPT 5.2 (high) -1 -1
+Claude 4.5 Opus (high) GPT 5 mini 82 34
+Claude 4.5 Opus (high) Kimi K2.5 (high) 9 3
+Claude 4.5 Opus (high) MiniMax M2.5 (high) -1 -1
+Claude 4.5 Sonnet (high) Claude 4.5 Haiku (high) 3 1
+Claude 4.5 Sonnet (high) Claude 4.5 Opus (high) -1 -1
+Claude 4.5 Sonnet (high) Claude 4.6 Opus -1 -1
+Claude 4.5 Sonnet (high) DeepSeek V3.2 (high) -1 -1
+Claude 4.5 Sonnet (high) Gemini 3 Flash (high) -1 -1
+Claude 4.5 Sonnet (high) GLM 5 (high) -1 -1
+Claude 4.5 Sonnet (high) GPT 5.2 (high) -1 -1
+Claude 4.5 Sonnet (high) GPT 5 mini 55 22
+Claude 4.5 Sonnet (high) Kimi K2.5 (high) -1 -1
+Claude 4.5 Sonnet (high) MiniMax M2.5 (high) -1 -1
+Claude 4.6 Opus Claude 4.5 Haiku (high) 22 9
+Claude 4.6 Opus Claude 4.5 Opus (high) -1 -1
+Claude 4.6 Opus Claude 4.5 Sonnet (high) -1 -1
+Claude 4.6 Opus DeepSeek V3.2 (high) 2 1
+Claude 4.6 Opus Gemini 3 Flash (high) -1 -1
+Claude 4.6 Opus GLM 5 (high) -1 -1
+Claude 4.6 Opus GPT 5.2 (high) -1 -1
+Claude 4.6 Opus GPT 5 mini 74 31
+Claude 4.6 Opus Kimi K2.5 (high) -1 -1
+Claude 4.6 Opus MiniMax M2.5 (high) -1 -1
+DeepSeek V3.2 (high) Claude 4.5 Haiku (high) -1 -1
+DeepSeek V3.2 (high) Claude 4.5 Opus (high) -1 -1
+DeepSeek V3.2 (high) Claude 4.5 Sonnet (high) -1 -1
+DeepSeek V3.2 (high) Claude 4.6 Opus -1 -1
+DeepSeek V3.2 (high) Gemini 3 Flash (high) -1 -1
+DeepSeek V3.2 (high) GLM 5 (high) -1 -1
+DeepSeek V3.2 (high) GPT 5.2 (high) -1 -1
+DeepSeek V3.2 (high) GPT 5 mini 43 18
+DeepSeek V3.2 (high) Kimi K2.5 (high) -1 -1
+DeepSeek V3.2 (high) MiniMax M2.5 (high) -1 -1
+Gemini 3 Flash (high) Claude 4.5 Haiku (high) 25 10
+Gemini 3 Flash (high) Claude 4.5 Opus (high) -1 -1
+Gemini 3 Flash (high) Claude 4.5 Sonnet (high) -1 -1
+Gemini 3 Flash (high) Claude 4.6 Opus -1 -1
+Gemini 3 Flash (high) DeepSeek V3.2 (high) 5 2
+Gemini 3 Flash (high) GLM 5 (high) -1 -1
+Gemini 3 Flash (high) GPT 5.2 (high) -1 -1
+Gemini 3 Flash (high) GPT 5 mini 78 32
+Gemini 3 Flash (high) Kimi K2.5 (high) 0 0
+Gemini 3 Flash (high) MiniMax M2.5 (high) -1 -1
+GLM 5 (high) Claude 4.5 Haiku (high) 5 2
+GLM 5 (high) Claude 4.5 Opus (high) -1 -1
+GLM 5 (high) Claude 4.5 Sonnet (high) -1 -1
+GLM 5 (high) Claude 4.6 Opus -1 -1
+GLM 5 (high) DeepSeek V3.2 (high) -1 -1
+GLM 5 (high) Gemini 3 Flash (high) -1 -1
+GLM 5 (high) GPT 5.2 (high) -1 -1
+GLM 5 (high) GPT 5 mini 59 25
+GLM 5 (high) Kimi K2.5 (high) -1 -1
+GLM 5 (high) MiniMax M2.5 (high) -1 -1
+GPT 5.2 (high) Claude 4.5 Haiku (high) 5 2
+GPT 5.2 (high) Claude 4.5 Opus (high) -1 -1
+GPT 5.2 (high) Claude 4.5 Sonnet (high) -1 -1
+GPT 5.2 (high) Claude 4.6 Opus -1 -1
+GPT 5.2 (high) DeepSeek V3.2 (high) -1 -1
+GPT 5.2 (high) Gemini 3 Flash (high) -1 -1
+GPT 5.2 (high) GLM 5 (high) -1 -1
+GPT 5.2 (high) GPT 5 mini 59 24
+GPT 5.2 (high) Kimi K2.5 (high) -1 -1
+GPT 5.2 (high) MiniMax M2.5 (high) -1 -1
+GPT 5 mini Claude 4.5 Haiku (high) -1 -1
+GPT 5 mini Claude 4.5 Opus (high) -1 -1
+GPT 5 mini Claude 4.5 Sonnet (high) -1 -1
+GPT 5 mini Claude 4.6 Opus -1 -1
+GPT 5 mini DeepSeek V3.2 (high) -1 -1
+GPT 5 mini Gemini 3 Flash (high) -1 -1
+GPT 5 mini GLM 5 (high) -1 -1
+GPT 5 mini GPT 5.2 (high) -1 -1
+GPT 5 mini Kimi K2.5 (high) -1 -1
+GPT 5 mini MiniMax M2.5 (high) -1 -1
+Kimi K2.5 (high) Claude 4.5 Haiku (high) -1 -1
+Kimi K2.5 (high) Claude 4.5 Opus (high) -1 -1
+Kimi K2.5 (high) Claude 4.5 Sonnet (high) -1 -1
+Kimi K2.5 (high) Claude 4.6 Opus -1 -1
+Kimi K2.5 (high) DeepSeek V3.2 (high) -1 -1
+Kimi K2.5 (high) Gemini 3 Flash (high) -1 -1
+Kimi K2.5 (high) GLM 5 (high) -1 -1
+Kimi K2.5 (high) GPT 5.2 (high) -1 -1
+Kimi K2.5 (high) GPT 5 mini 51 21
+Kimi K2.5 (high) MiniMax M2.5 (high) -1 -1
+MiniMax M2.5 (high) Claude 4.5 Haiku (high) 23 9
+MiniMax M2.5 (high) Claude 4.5 Opus (high) -1 -1
+MiniMax M2.5 (high) Claude 4.5 Sonnet (high) -1 -1
+MiniMax M2.5 (high) Claude 4.6 Opus -1 -1
+MiniMax M2.5 (high) DeepSeek V3.2 (high) 4 1
+MiniMax M2.5 (high) Gemini 3 Flash (high) -1 -1
+MiniMax M2.5 (high) GLM 5 (high) -1 -1
+MiniMax M2.5 (high) GPT 5.2 (high) -1 -1
+MiniMax M2.5 (high) GPT 5 mini 77 32
+MiniMax M2.5 (high) Kimi K2.5 (high) 2 1
+                       i                        j   n  wins  losses  ties  win_rate    D  D_rep  B_ins  ratio_ins  tau0_ins  tau10_ins  tau25_ins  tau50_ins  B_rep  ratio_rep  tau0_rep  tau10_rep  tau25_rep  tau50_rep
+ Claude 4.5 Haiku (high)   Claude 4.5 Opus (high) 500    11      62   427     0.449  -51      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+ Claude 4.5 Haiku (high) Claude 4.5 Sonnet (high) 500    13      37   450     0.476  -24      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+ Claude 4.5 Haiku (high)          Claude 4.6 Opus 500    16      61   423     0.455  -45      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+ Claude 4.5 Haiku (high)     DeepSeek V3.2 (high) 500    21      38   441     0.483  -17      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+ Claude 4.5 Haiku (high)    Gemini 3 Flash (high) 500    12      58   430     0.454  -46      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+ Claude 4.5 Haiku (high)             GLM 5 (high) 500    22      53   425     0.469  -31      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+ Claude 4.5 Haiku (high)           GPT 5.2 (high) 500    24      55   421     0.469  -31      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+ Claude 4.5 Haiku (high)               GPT 5 mini 500    76      24   400     0.552   52     26     26   0.500000     207.0      263.0      488.0        NaN     10   0.384615     207.0      484.0        NaN        NaN
+ Claude 4.5 Haiku (high)         Kimi K2.5 (high) 500    22      43   435     0.479  -21      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+ Claude 4.5 Haiku (high)      MiniMax M2.5 (high) 500    16      62   422     0.454  -46      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+  Claude 4.5 Opus (high)  Claude 4.5 Haiku (high) 500    62      11   427     0.551   51     26     31   0.607843     129.0      289.0      436.0        NaN     12   0.461538     129.0      436.0        NaN        NaN
+  Claude 4.5 Opus (high) Claude 4.5 Sonnet (high) 500    38      11   451     0.527   27     14      7   0.259259     326.0        NaN        NaN        NaN      2   0.142857     326.0        NaN        NaN        NaN
+  Claude 4.5 Opus (high)          Claude 4.6 Opus 500    30      24   446     0.506    6      3     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+  Claude 4.5 Opus (high)     DeepSeek V3.2 (high) 500    49      15   436     0.534   34     17     12   0.352941     300.0      463.0        NaN        NaN      4   0.235294     300.0        NaN        NaN        NaN
+  Claude 4.5 Opus (high)    Gemini 3 Flash (high) 500    29      24   447     0.505    5      3     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+  Claude 4.5 Opus (high)             GLM 5 (high) 500    39      19   442     0.520   20     10     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+  Claude 4.5 Opus (high)           GPT 5.2 (high) 500    40      20   440     0.520   20     10     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+  Claude 4.5 Opus (high)               GPT 5 mini 500   115      12   373     0.603  103     52     82   0.796117      48.0      146.0      230.0      326.0     34   0.653846      48.0      236.0      387.0        NaN
+  Claude 4.5 Opus (high)         Kimi K2.5 (high) 500    43      13   444     0.530   30     15      9   0.300000     316.0        NaN        NaN        NaN      3   0.200000     316.0        NaN        NaN        NaN
+  Claude 4.5 Opus (high)      MiniMax M2.5 (high) 500    30      25   445     0.505    5      3     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+Claude 4.5 Sonnet (high)  Claude 4.5 Haiku (high) 500    37      13   450     0.524   24     12      3   0.125000     384.0        NaN        NaN        NaN      1   0.083333     384.0        NaN        NaN        NaN
+Claude 4.5 Sonnet (high)   Claude 4.5 Opus (high) 500    11      38   451     0.473  -27      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+Claude 4.5 Sonnet (high)          Claude 4.6 Opus 500    22      43   435     0.479  -21      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+Claude 4.5 Sonnet (high)     DeepSeek V3.2 (high) 500    31      24   445     0.507    7      4     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+Claude 4.5 Sonnet (high)    Gemini 3 Flash (high) 500    17      39   444     0.478  -22      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+Claude 4.5 Sonnet (high)             GLM 5 (high) 500    27      34   439     0.493   -7      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+Claude 4.5 Sonnet (high)           GPT 5.2 (high) 500    27      34   439     0.493   -7      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+Claude 4.5 Sonnet (high)               GPT 5 mini 500    89      13   398     0.576   76     38     55   0.723684      60.0      198.0      260.0      474.0     22   0.578947      60.0      273.0        NaN        NaN
+Claude 4.5 Sonnet (high)         Kimi K2.5 (high) 500    28      25   447     0.503    3      2     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+Claude 4.5 Sonnet (high)      MiniMax M2.5 (high) 500    20      42   438     0.478  -22      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+         Claude 4.6 Opus  Claude 4.5 Haiku (high) 500    61      16   423     0.545   45     23     22   0.488889     284.0      378.0        NaN        NaN      9   0.391304     284.0        NaN        NaN        NaN
+         Claude 4.6 Opus   Claude 4.5 Opus (high) 500    24      30   446     0.494   -6      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+         Claude 4.6 Opus Claude 4.5 Sonnet (high) 500    43      22   435     0.521   21     11     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+         Claude 4.6 Opus     DeepSeek V3.2 (high) 500    51      23   426     0.528   28     14      2   0.071429     428.0        NaN        NaN        NaN      1   0.071429     428.0        NaN        NaN        NaN
+         Claude 4.6 Opus    Gemini 3 Flash (high) 500    32      33   435     0.499   -1      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+         Claude 4.6 Opus             GLM 5 (high) 500    43      29   428     0.514   14      7     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+         Claude 4.6 Opus           GPT 5.2 (high) 500    43      29   428     0.514   14      7     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+         Claude 4.6 Opus               GPT 5 mini 500   113      16   371     0.597   97     49     74   0.762887     124.0      194.0      269.0      387.0     31   0.632653     124.0      269.0      428.0        NaN
+         Claude 4.6 Opus         Kimi K2.5 (high) 500    45      21   434     0.524   24     12     -1        NaN     472.0        NaN        NaN        NaN     -1        NaN     472.0        NaN        NaN        NaN
+         Claude 4.6 Opus      MiniMax M2.5 (high) 500    32      33   435     0.499   -1      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+    DeepSeek V3.2 (high)  Claude 4.5 Haiku (high) 500    38      21   441     0.517   17      9     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+    DeepSeek V3.2 (high)   Claude 4.5 Opus (high) 500    15      49   436     0.466  -34      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+    DeepSeek V3.2 (high) Claude 4.5 Sonnet (high) 500    24      31   445     0.493   -7      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+    DeepSeek V3.2 (high)          Claude 4.6 Opus 500    23      51   426     0.472  -28      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+    DeepSeek V3.2 (high)    Gemini 3 Flash (high) 500    18      47   435     0.471  -29      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+    DeepSeek V3.2 (high)             GLM 5 (high) 500    23      37   440     0.486  -14      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+    DeepSeek V3.2 (high)           GPT 5.2 (high) 500    21      35   444     0.486  -14      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+    DeepSeek V3.2 (high)               GPT 5 mini 500    91      22   387     0.569   69     35     43   0.623188     171.0      232.0      342.0        NaN     18   0.514286     171.0      340.0        NaN        NaN
+    DeepSeek V3.2 (high)         Kimi K2.5 (high) 500    29      33   438     0.496   -4      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+    DeepSeek V3.2 (high)      MiniMax M2.5 (high) 500    20      49   431     0.471  -29      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+   Gemini 3 Flash (high)  Claude 4.5 Haiku (high) 500    58      12   430     0.546   46     23     25   0.543478     171.0      308.0      469.0        NaN     10   0.434783     171.0      469.0        NaN        NaN
+   Gemini 3 Flash (high)   Claude 4.5 Opus (high) 500    24      29   447     0.495   -5      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+   Gemini 3 Flash (high) Claude 4.5 Sonnet (high) 500    39      17   444     0.522   22     11     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+   Gemini 3 Flash (high)          Claude 4.6 Opus 500    33      32   435     0.501    1      1     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+   Gemini 3 Flash (high)     DeepSeek V3.2 (high) 500    47      18   435     0.529   29     15      5   0.172414     309.0        NaN        NaN        NaN      2   0.133333     309.0        NaN        NaN        NaN
+   Gemini 3 Flash (high)             GLM 5 (high) 500    36      21   443     0.515   15      8     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+   Gemini 3 Flash (high)           GPT 5.2 (high) 500    37      22   441     0.515   15      8     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+   Gemini 3 Flash (high)               GPT 5 mini 500   109      11   380     0.598   98     49     78   0.795918      80.0      173.0      226.0      326.0     32   0.653061      80.0      229.0      415.0        NaN
+   Gemini 3 Flash (high)         Kimi K2.5 (high) 500    45      20   435     0.525   25     13      0   0.000000     426.0        NaN        NaN        NaN      0   0.000000     426.0        NaN        NaN        NaN
+   Gemini 3 Flash (high)      MiniMax M2.5 (high) 500    28      28   444     0.500    0      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+            GLM 5 (high)  Claude 4.5 Haiku (high) 500    53      22   425     0.531   31     16      5   0.161290     410.0        NaN        NaN        NaN      2   0.125000     410.0        NaN        NaN        NaN
+            GLM 5 (high)   Claude 4.5 Opus (high) 500    19      39   442     0.480  -20      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+            GLM 5 (high) Claude 4.5 Sonnet (high) 500    34      27   439     0.507    7      4     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+            GLM 5 (high)          Claude 4.6 Opus 500    29      43   428     0.486  -14      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+            GLM 5 (high)     DeepSeek V3.2 (high) 500    37      23   440     0.514   14      7     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+            GLM 5 (high)    Gemini 3 Flash (high) 500    21      36   443     0.485  -15      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+            GLM 5 (high)           GPT 5.2 (high) 500    29      29   442     0.500    0      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+            GLM 5 (high)               GPT 5 mini 500   101      18   381     0.583   83     42     59   0.710843     127.0      213.0      271.0      455.0     25   0.595238     127.0      271.0      496.0        NaN
+            GLM 5 (high)         Kimi K2.5 (high) 500    38      28   434     0.510   10      5     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+            GLM 5 (high)      MiniMax M2.5 (high) 500    26      41   433     0.485  -15      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+          GPT 5.2 (high)  Claude 4.5 Haiku (high) 500    55      24   421     0.531   31     16      5   0.161290     258.0        NaN        NaN        NaN      2   0.125000     258.0        NaN        NaN        NaN
+          GPT 5.2 (high)   Claude 4.5 Opus (high) 500    20      40   440     0.480  -20      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+          GPT 5.2 (high) Claude 4.5 Sonnet (high) 500    34      27   439     0.507    7      4     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+          GPT 5.2 (high)          Claude 4.6 Opus 500    29      43   428     0.486  -14      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+          GPT 5.2 (high)     DeepSeek V3.2 (high) 500    35      21   444     0.514   14      7     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+          GPT 5.2 (high)    Gemini 3 Flash (high) 500    22      37   441     0.485  -15      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+          GPT 5.2 (high)             GLM 5 (high) 500    29      29   442     0.500    0      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+          GPT 5.2 (high)               GPT 5 mini 500   102      19   379     0.583   83     42     59   0.710843      46.0      178.0      249.0      436.0     24   0.571429      46.0      253.0        NaN        NaN
+          GPT 5.2 (high)         Kimi K2.5 (high) 500    42      32   426     0.510   10      5     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+          GPT 5.2 (high)      MiniMax M2.5 (high) 500    28      43   429     0.485  -15      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+              GPT 5 mini  Claude 4.5 Haiku (high) 500    24      76   400     0.448  -52      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+              GPT 5 mini   Claude 4.5 Opus (high) 500    12     115   373     0.397 -103      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+              GPT 5 mini Claude 4.5 Sonnet (high) 500    13      89   398     0.424  -76      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+              GPT 5 mini          Claude 4.6 Opus 500    16     113   371     0.403  -97      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+              GPT 5 mini     DeepSeek V3.2 (high) 500    22      91   387     0.431  -69      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+              GPT 5 mini    Gemini 3 Flash (high) 500    11     109   380     0.402  -98      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+              GPT 5 mini             GLM 5 (high) 500    18     101   381     0.417  -83      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+              GPT 5 mini           GPT 5.2 (high) 500    19     102   379     0.417  -83      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+              GPT 5 mini         Kimi K2.5 (high) 500    15      88   397     0.427  -73      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+              GPT 5 mini      MiniMax M2.5 (high) 500    13     111   376     0.402  -98      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+        Kimi K2.5 (high)  Claude 4.5 Haiku (high) 500    43      22   435     0.521   21     11     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+        Kimi K2.5 (high)   Claude 4.5 Opus (high) 500    13      43   444     0.470  -30      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+        Kimi K2.5 (high) Claude 4.5 Sonnet (high) 500    25      28   447     0.497   -3      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+        Kimi K2.5 (high)          Claude 4.6 Opus 500    21      45   434     0.476  -24      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+        Kimi K2.5 (high)     DeepSeek V3.2 (high) 500    33      29   438     0.504    4      2     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+        Kimi K2.5 (high)    Gemini 3 Flash (high) 500    20      45   435     0.475  -25      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+        Kimi K2.5 (high)             GLM 5 (high) 500    28      38   434     0.490  -10      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+        Kimi K2.5 (high)           GPT 5.2 (high) 500    32      42   426     0.490  -10      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+        Kimi K2.5 (high)               GPT 5 mini 500    88      15   397     0.573   73     37     51   0.698630     106.0      185.0      280.0      490.0     21   0.567568     106.0      280.0        NaN        NaN
+        Kimi K2.5 (high)      MiniMax M2.5 (high) 500    16      41   443     0.475  -25      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+     MiniMax M2.5 (high)  Claude 4.5 Haiku (high) 500    62      16   422     0.546   46     23     23   0.500000     127.0      378.0        NaN        NaN      9   0.391304     127.0        NaN        NaN        NaN
+     MiniMax M2.5 (high)   Claude 4.5 Opus (high) 500    25      30   445     0.495   -5      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+     MiniMax M2.5 (high) Claude 4.5 Sonnet (high) 500    42      20   438     0.522   22     11     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+     MiniMax M2.5 (high)          Claude 4.6 Opus 500    33      32   435     0.501    1      1     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+     MiniMax M2.5 (high)     DeepSeek V3.2 (high) 500    49      20   431     0.529   29     15      4   0.137931     436.0        NaN        NaN        NaN      1   0.066667     436.0        NaN        NaN        NaN
+     MiniMax M2.5 (high)    Gemini 3 Flash (high) 500    28      28   444     0.500    0      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+     MiniMax M2.5 (high)             GLM 5 (high) 500    41      26   433     0.515   15      8     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+     MiniMax M2.5 (high)           GPT 5.2 (high) 500    43      28   429     0.515   15      8     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN
+     MiniMax M2.5 (high)               GPT 5 mini 500   111      13   376     0.598   98     49     77   0.785714      46.0      131.0      213.0      360.0     32   0.653061      46.0      215.0      436.0        NaN
+     MiniMax M2.5 (high)         Kimi K2.5 (high) 500    41      16   443     0.525   25     13      2   0.080000     472.0        NaN        NaN        NaN      1   0.076923     472.0        NaN        NaN        NaN
+                                                        B_final_min  B_final_max  tau0_med  tau0_q10  tau0_q90  tau50_med
+i                        j                        cost                                                                   
+Claude 4.5 Haiku (high)  GPT 5 mini               ins            26           26     160.0      85.8     267.2        NaN
+                                                  rep            10           10     160.0      85.8     267.2        NaN
+Claude 4.5 Opus (high)   Claude 4.5 Haiku (high)  ins            31           31     148.0      94.5     197.3        NaN
+                                                  rep            12           12     148.0      94.5     197.3        NaN
+                         Claude 4.5 Sonnet (high) ins             7            7     289.5     184.9     378.1        NaN
+                                                  rep             2            2     289.5     184.9     378.1        NaN
+                         Claude 4.6 Opus          ins            -1           -1     180.0     180.0     180.0        NaN
+                                                  rep            -1           -1     180.0     180.0     180.0        NaN
+                         DeepSeek V3.2 (high)     ins            12           12     265.5     157.3     345.1        NaN
+                                                  rep             4            4     265.5     157.3     345.1        NaN
+                         GLM 5 (high)             ins            -1           -1     333.0     249.1     436.5        NaN
+                                                  rep            -1           -1     333.0     249.1     436.5        NaN
+                         GPT 5 mini               ins            82           82      71.5      45.9      98.2      327.0
+                                                  rep            34           34      71.5      45.9      98.2        NaN
+                         GPT 5.2 (high)           ins            -1           -1     325.5     160.9     429.6        NaN
+                                                  rep            -1           -1     325.5     160.9     429.6        NaN
+                         Gemini 3 Flash (high)    ins            -1           -1       NaN       NaN       NaN        NaN
+                                                  rep            -1           -1       NaN       NaN       NaN        NaN
+                         Kimi K2.5 (high)         ins             9            9     280.5     178.0     374.1        NaN
+                                                  rep             3            3     280.5     178.0     374.1        NaN
+                         MiniMax M2.5 (high)      ins            -1           -1       NaN       NaN       NaN        NaN
+                                                  rep            -1           -1       NaN       NaN       NaN        NaN
+Claude 4.5 Sonnet (high) Claude 4.5 Haiku (high)  ins             3            3     374.0     225.3     458.2        NaN
+                                                  rep             1            1     374.0     225.3     458.2        NaN
+                         DeepSeek V3.2 (high)     ins            -1           -1       NaN       NaN       NaN        NaN
+                                                  rep            -1           -1       NaN       NaN       NaN        NaN
+                         GPT 5 mini               ins            55           55      98.5      59.9     127.4      458.0
+                                                  rep            22           22      98.5      59.9     127.4        NaN
+                         Kimi K2.5 (high)         ins            -1           -1       NaN       NaN       NaN        NaN
+                                                  rep            -1           -1       NaN       NaN       NaN        NaN
+Claude 4.6 Opus          Claude 4.5 Haiku (high)  ins            22           22     175.5      99.7     272.2        NaN
+                                                  rep             9            9     175.5      99.7     272.2        NaN
+                         Claude 4.5 Sonnet (high) ins            -1           -1     285.0     187.0     398.4        NaN
+                                                  rep            -1           -1     285.0     187.0     398.4        NaN
+                         DeepSeek V3.2 (high)     ins             2            2     356.5     177.7     482.1        NaN
+                                                  rep             1            1     356.5     177.7     482.1        NaN
+                         GLM 5 (high)             ins            -1           -1       NaN       NaN       NaN        NaN
+                                                  rep            -1           -1       NaN       NaN       NaN        NaN
+                         GPT 5 mini               ins            74           74      72.0      49.0     105.2      352.5
+                                                  rep            31           31      72.0      49.0     105.2        NaN
+                         GPT 5.2 (high)           ins            -1           -1     220.0     213.6     226.4        NaN
+                                                  rep            -1           -1     220.0     213.6     226.4        NaN
+                         Kimi K2.5 (high)         ins            -1           -1     358.0     191.8     476.7        NaN
+                                                  rep            -1           -1     358.0     191.8     476.7        NaN
+DeepSeek V3.2 (high)     Claude 4.5 Haiku (high)  ins            -1           -1     257.5     150.2     314.6        NaN
+                                                  rep            -1           -1     257.5     150.2     314.6        NaN
+                         GPT 5 mini               ins            43           43     110.5      65.0     154.1        NaN
+                                                  rep            18           18     110.5      65.0     154.1        NaN
+GLM 5 (high)             Claude 4.5 Haiku (high)  ins             5            5     316.5     193.0     415.3        NaN
+                                                  rep             2            2     316.5     193.0     415.3        NaN
+                         Claude 4.5 Sonnet (high) ins            -1           -1       NaN       NaN       NaN        NaN
+                                                  rep            -1           -1       NaN       NaN       NaN        NaN
+                         DeepSeek V3.2 (high)     ins            -1           -1       NaN       NaN       NaN        NaN
+                                                  rep            -1           -1       NaN       NaN       NaN        NaN
+                         GPT 5 mini               ins            59           59      86.0      59.0     130.2      430.5
+                                                  rep            25           25      86.0      59.0     130.2        NaN
+                         Kimi K2.5 (high)         ins            -1           -1     184.0     184.0     184.0        NaN
+                                                  rep            -1           -1     184.0     184.0     184.0        NaN
+GPT 5.2 (high)           Claude 4.5 Haiku (high)  ins             5            5     321.0     173.0     435.5        NaN
+                                                  rep             2            2     321.0     173.0     435.5        NaN
+                         Claude 4.5 Sonnet (high) ins            -1           -1       NaN       NaN       NaN        NaN
+                                                  rep            -1           -1       NaN       NaN       NaN        NaN
+                         DeepSeek V3.2 (high)     ins            -1           -1     273.0     218.6     318.6        NaN
+                                                  rep            -1           -1     273.0     218.6     318.6        NaN
+                         GPT 5 mini               ins            59           59      91.5      59.7     138.1      429.0
+                                                  rep            24           24      91.5      59.7     138.1        NaN
+                         Kimi K2.5 (high)         ins            -1           -1       NaN       NaN       NaN        NaN
+                                                  rep            -1           -1       NaN       NaN       NaN        NaN
+Gemini 3 Flash (high)    Claude 4.5 Haiku (high)  ins            25           25     145.0      96.5     239.0        NaN
+                                                  rep            10           10     145.0      96.5     239.0        NaN
+                         Claude 4.5 Sonnet (high) ins            -1           -1     358.0     217.4     487.0        NaN
+                                                  rep            -1           -1     358.0     217.4     487.0        NaN
+                         Claude 4.6 Opus          ins            -1           -1       NaN       NaN       NaN        NaN
+                                                  rep            -1           -1       NaN       NaN       NaN        NaN
+                         DeepSeek V3.2 (high)     ins             5            5     332.5     198.5     433.2        NaN
+                                                  rep             2            2     332.5     198.5     433.2        NaN
+                         GLM 5 (high)             ins            -1           -1     183.0     183.0     183.0        NaN
+                                                  rep            -1           -1     183.0     183.0     183.0        NaN
+                         GPT 5 mini               ins            78           78      75.0      46.0      99.3      349.0
+                                                  rep            32           32      75.0      46.0      99.3        NaN
+                         GPT 5.2 (high)           ins            -1           -1     275.0     224.6     327.0        NaN
+                                                  rep            -1           -1     275.0     224.6     327.0        NaN
+                         Kimi K2.5 (high)         ins             0            0     416.0     220.5     493.2        NaN
+                                                  rep             0            0     416.0     220.5     493.2        NaN
+Kimi K2.5 (high)         Claude 4.5 Haiku (high)  ins            -1           -1     273.0     159.4     393.4        NaN
+                                                  rep            -1           -1     273.0     159.4     393.4        NaN
+                         DeepSeek V3.2 (high)     ins            -1           -1       NaN       NaN       NaN        NaN
+                                                  rep            -1           -1       NaN       NaN       NaN        NaN
+                         GPT 5 mini               ins            51           51      97.5      61.0     143.2      486.0
+                                                  rep            21           21      97.5      61.0     143.2        NaN
+MiniMax M2.5 (high)      Claude 4.5 Haiku (high)  ins            23           23     178.0     113.6     236.4        NaN
+                                                  rep             9            9     178.0     113.6     236.4        NaN
+                         Claude 4.5 Sonnet (high) ins            -1           -1     365.0     195.2     458.8        NaN
+                                                  rep            -1           -1     365.0     195.2     458.8        NaN
+                         Claude 4.6 Opus          ins            -1           -1       NaN       NaN       NaN        NaN
+                                                  rep            -1           -1       NaN       NaN       NaN        NaN
+                         DeepSeek V3.2 (high)     ins             4            4     363.5     196.5     452.1        NaN
+                                                  rep             1            1     363.5     196.5     452.1        NaN
+                         GLM 5 (high)             ins            -1           -1       NaN       NaN       NaN        NaN
+                                                  rep            -1           -1       NaN       NaN       NaN        NaN
+                         GPT 5 mini               ins            77           77      76.0      52.9     107.0      347.0
+                                                  rep            32           32      76.0      52.9     107.0        NaN
+                         GPT 5.2 (high)           ins            -1           -1     237.0     182.4     331.5        NaN
+                                                  rep            -1           -1     237.0     182.4     331.5        NaN
+                         Kimi K2.5 (high)         ins             2            2     380.0     215.8     474.2        NaN
+                                                  rep             1            1     380.0     215.8     474.2        NaN
+swebench (500 items), ins: certified 25 single-pair, 14 simultaneously, of 110 ordered pairs; largest simultaneous 69; closed minus Bonferroni at most 1
+swebench (500 items), rep: certified 25 single-pair, 14 simultaneously, of 110 ordered pairs; largest simultaneous 26; closed minus Bonferroni at most 1
+                          Claude 4.5 Haiku (high)  Claude 4.5 Opus (high)  Claude 4.5 Sonnet (high)  Claude 4.6 Opus  DeepSeek V3.2 (high)  Gemini 3 Flash (high)  GLM 5 (high)  GPT 5.2 (high)  GPT 5 mini  Kimi K2.5 (high)  MiniMax M2.5 (high)
+Claude 4.5 Haiku (high)                       NaN                    -1.0                      -1.0             -1.0                  -1.0                   -1.0          -1.0            -1.0        11.0              -1.0                 -1.0
+Claude 4.5 Opus (high)                       18.0                     NaN                      -1.0             -1.0                  -1.0                   -1.0          -1.0            -1.0        69.0              -1.0                 -1.0
+Claude 4.5 Sonnet (high)                     -1.0                    -1.0                       NaN             -1.0                  -1.0                   -1.0          -1.0            -1.0        42.0              -1.0                 -1.0
+Claude 4.6 Opus                               9.0                    -1.0                      -1.0              NaN                  -1.0                   -1.0          -1.0            -1.0        61.0              -1.0                 -1.0
+DeepSeek V3.2 (high)                         -1.0                    -1.0                      -1.0             -1.0                   NaN                   -1.0          -1.0            -1.0        29.0              -1.0                 -1.0
+Gemini 3 Flash (high)                        12.0                    -1.0                      -1.0             -1.0                  -1.0                    NaN          -1.0            -1.0        65.0              -1.0                 -1.0
+GLM 5 (high)                                 -1.0                    -1.0                      -1.0             -1.0                  -1.0                   -1.0           NaN            -1.0        45.0              -1.0                 -1.0
+GPT 5.2 (high)                               -1.0                    -1.0                      -1.0             -1.0                  -1.0                   -1.0          -1.0             NaN        45.0              -1.0                 -1.0
+GPT 5 mini                                   -1.0                    -1.0                      -1.0             -1.0                  -1.0                   -1.0          -1.0            -1.0         NaN              -1.0                 -1.0
+Kimi K2.5 (high)                             -1.0                    -1.0                      -1.0             -1.0                  -1.0                   -1.0          -1.0            -1.0        37.0               NaN                 -1.0
+MiniMax M2.5 (high)                          10.0                    -1.0                      -1.0             -1.0                  -1.0                   -1.0          -1.0            -1.0        63.0              -1.0                  NaN

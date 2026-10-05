@@ -1,0 +1,16 @@
+                                        run                    model  release agent  reported  per_task_share  kept                                          reason
+ 20260217_mini-v2.0.0_claude-4-5-haiku-high  Claude 4.5 Haiku (high) 20251015 2.0.0      66.6       66.600000  True                                                
+  20260217_mini-v2.0.0_claude-4-5-opus-high   Claude 4.5 Opus (high) 20251124 2.0.0      76.8       76.800000  True                                                
+20260217_mini-v2.0.0_claude-4-5-sonnet-high Claude 4.5 Sonnet (high) 20250929 2.0.0      71.4       71.400000  True                                                
+       20260217_mini-v2.0.0_claude-4-6-opus          Claude 4.6 Opus 20260205 2.0.0      75.6       75.600000  True                                                
+     20260217_mini-v2.0.0_deepseek-3-2-high     DeepSeek V3.2 (high) 20251201 2.0.0      70.0       70.000000  True                                                
+   20260217_mini-v2.0.0_gemini-3-flash-high    Gemini 3 Flash (high) 20251217 2.0.0      75.8       75.800000  True                                                
+            20260217_mini-v2.0.0_glm-5-high             GLM 5 (high) 20260211 2.0.0      72.8       72.800000  True                                                
+          20260217_mini-v2.0.0_gpt-5-2-high           GPT 5.2 (high) 20251211 2.0.0      72.8       72.800000  True                                                
+            20260217_mini-v2.0.0_gpt-5-mini               GPT 5 mini 20250807 2.0.0      56.2       56.200000  True                                                
+        20260217_mini-v2.0.0_kimi-k2-5-high         Kimi K2.5 (high) 20260127 2.0.0      70.8       70.800000  True                                                
+      20260217_mini-v2.0.0_minimax-2-5-high      MiniMax M2.5 (high) 20260212 2.0.0      75.8       75.800000  True                                                
+         20260219_mini-v2.0.0_gpt-5-2-codex            GPT 5.2 Codex 20251211 2.0.0      72.8             NaN False                                no per-task file
+     20260226_mini-v2.0.0_gemini-3-pro-high             Gemini 3 Pro 20251118 2.0.0      69.6        0.000000 False per-task share 0.0% differs from reported 69.6%
+      20260901_mini-v2.4.2_gemini-3-5-flash         Gemini 3.5 Flash 20260519 2.4.2      71.8       81.405896 False              per-task file has 441 of 500 tasks
+500 tasks x 11 models; resolve rate: {'Claude 4.5 Opus (high)': 0.768, 'Gemini 3 Flash (high)': 0.758, 'MiniMax M2.5 (high)': 0.758, 'Claude 4.6 Opus': 0.756, 'GLM 5 (high)': 0.728, 'GPT 5.2 (high)': 0.728, 'Claude 4.5 Sonnet (high)': 0.714, 'Kimi K2.5 (high)': 0.708, 'DeepSeek V3.2 (high)': 0.7, 'Claude 4.5 Haiku (high)': 0.666, 'GPT 5 mini': 0.562}

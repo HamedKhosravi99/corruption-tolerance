@@ -1,0 +1,191 @@
+llama-3.1-8b-instruct qwen2.5-7b-instruct burst_random 0 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct burst_random 10 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct burst_random 25 {'wald': 0.001, 'naive': 0.001, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct burst_random 50 {'wald': 0.01, 'naive': 0.008, 'perstep': 0.005, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct burst_random 100 {'wald': 0.029, 'naive': 0.026, 'perstep': 0.026, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct burst_random 200 {'wald': 0.066, 'naive': 0.059, 'perstep': 0.053, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct burst_random 400 {'wald': 0.133, 'naive': 0.114, 'perstep': 0.082, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct spread 0 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct spread 10 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct spread 25 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct spread 50 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct spread 100 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct spread 200 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct spread 400 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct online_replace 0 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct online_replace 5 {'wald': 0.078, 'naive': 0.006, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct online_replace 10 {'wald': 0.799, 'naive': 0.657, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct online_replace 25 {'wald': 1.0, 'naive': 1.0, 'perstep': 0.704, 'avg_ins': 0.119, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct online_replace 50 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 0.782, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct online_replace 100 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 1.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct qwen2.5-7b-instruct online_replace 200 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 1.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b burst_random 0 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b burst_random 10 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b burst_random 25 {'wald': 0.003, 'naive': 0.003, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b burst_random 50 {'wald': 0.006, 'naive': 0.004, 'perstep': 0.003, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b burst_random 100 {'wald': 0.03, 'naive': 0.027, 'perstep': 0.027, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b burst_random 200 {'wald': 0.063, 'naive': 0.054, 'perstep': 0.051, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b burst_random 400 {'wald': 0.13, 'naive': 0.118, 'perstep': 0.077, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b spread 0 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b spread 10 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b spread 25 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b spread 50 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b spread 100 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b spread 200 {'wald': 0.001, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b spread 400 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b online_replace 0 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b online_replace 5 {'wald': 0.088, 'naive': 0.008, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b online_replace 10 {'wald': 0.823, 'naive': 0.701, 'perstep': 0.0, 'avg_ins': 0.003, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b online_replace 25 {'wald': 1.0, 'naive': 1.0, 'perstep': 0.764, 'avg_ins': 0.172, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b online_replace 50 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 0.875, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b online_replace 100 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 1.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct gemma-2-9b online_replace 200 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 1.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 burst_random 0 {'wald': 0.014, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 burst_random 10 {'wald': 0.016, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 burst_random 25 {'wald': 0.02, 'naive': 0.01, 'perstep': 0.002, 'avg_ins': 0.002, 'avg_rep': 0.002}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 burst_random 50 {'wald': 0.048, 'naive': 0.023, 'perstep': 0.021, 'avg_ins': 0.001, 'avg_rep': 0.001}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 burst_random 100 {'wald': 0.104, 'naive': 0.069, 'perstep': 0.065, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 burst_random 200 {'wald': 0.207, 'naive': 0.165, 'perstep': 0.119, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 burst_random 400 {'wald': 0.491, 'naive': 0.421, 'perstep': 0.2, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 spread 0 {'wald': 0.013, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 spread 10 {'wald': 0.011, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 spread 25 {'wald': 0.007, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 spread 50 {'wald': 0.012, 'naive': 0.001, 'perstep': 0.0, 'avg_ins': 0.001, 'avg_rep': 0.001}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 spread 100 {'wald': 0.021, 'naive': 0.001, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 spread 200 {'wald': 0.017, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 spread 400 {'wald': 0.055, 'naive': 0.005, 'perstep': 0.0, 'avg_ins': 0.001, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 online_replace 0 {'wald': 0.009, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 online_replace 5 {'wald': 0.526, 'naive': 0.159, 'perstep': 0.001, 'avg_ins': 0.015, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 online_replace 10 {'wald': 0.991, 'naive': 0.965, 'perstep': 0.009, 'avg_ins': 0.162, 'avg_rep': 0.002}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 online_replace 25 {'wald': 1.0, 'naive': 1.0, 'perstep': 0.994, 'avg_ins': 0.881, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 online_replace 50 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 1.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 online_replace 100 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 1.0, 'avg_rep': 0.0}
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 online_replace 200 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 1.0, 'avg_rep': 0.0}
+gemma-2-9b qwen2.5-7b-instruct burst_random 0 {'wald': 0.079, 'naive': 0.002, 'perstep': 0.001, 'avg_ins': 0.002, 'avg_rep': 0.002}
+gemma-2-9b qwen2.5-7b-instruct burst_random 10 {'wald': 0.069, 'naive': 0.003, 'perstep': 0.001, 'avg_ins': 0.002, 'avg_rep': 0.002}
+gemma-2-9b qwen2.5-7b-instruct burst_random 25 {'wald': 0.119, 'naive': 0.027, 'perstep': 0.008, 'avg_ins': 0.005, 'avg_rep': 0.005}
+gemma-2-9b qwen2.5-7b-instruct burst_random 50 {'wald': 0.214, 'naive': 0.073, 'perstep': 0.064, 'avg_ins': 0.004, 'avg_rep': 0.004}
+gemma-2-9b qwen2.5-7b-instruct burst_random 100 {'wald': 0.392, 'naive': 0.219, 'perstep': 0.154, 'avg_ins': 0.006, 'avg_rep': 0.006}
+gemma-2-9b qwen2.5-7b-instruct burst_random 200 {'wald': 0.76, 'naive': 0.578, 'perstep': 0.233, 'avg_ins': 0.005, 'avg_rep': 0.004}
+gemma-2-9b qwen2.5-7b-instruct burst_random 400 {'wald': 0.999, 'naive': 0.995, 'perstep': 0.303, 'avg_ins': 0.003, 'avg_rep': 0.002}
+gemma-2-9b qwen2.5-7b-instruct spread 0 {'wald': 0.063, 'naive': 0.002, 'perstep': 0.0, 'avg_ins': 0.002, 'avg_rep': 0.002}
+gemma-2-9b qwen2.5-7b-instruct spread 10 {'wald': 0.074, 'naive': 0.004, 'perstep': 0.001, 'avg_ins': 0.004, 'avg_rep': 0.004}
+gemma-2-9b qwen2.5-7b-instruct spread 25 {'wald': 0.087, 'naive': 0.002, 'perstep': 0.002, 'avg_ins': 0.002, 'avg_rep': 0.002}
+gemma-2-9b qwen2.5-7b-instruct spread 50 {'wald': 0.117, 'naive': 0.001, 'perstep': 0.0, 'avg_ins': 0.001, 'avg_rep': 0.001}
+gemma-2-9b qwen2.5-7b-instruct spread 100 {'wald': 0.165, 'naive': 0.005, 'perstep': 0.0, 'avg_ins': 0.001, 'avg_rep': 0.001}
+gemma-2-9b qwen2.5-7b-instruct spread 200 {'wald': 0.466, 'naive': 0.084, 'perstep': 0.0, 'avg_ins': 0.004, 'avg_rep': 0.0}
+gemma-2-9b qwen2.5-7b-instruct spread 400 {'wald': 0.998, 'naive': 0.963, 'perstep': 0.001, 'avg_ins': 0.001, 'avg_rep': 0.0}
+gemma-2-9b qwen2.5-7b-instruct online_replace 0 {'wald': 0.081, 'naive': 0.004, 'perstep': 0.004, 'avg_ins': 0.004, 'avg_rep': 0.004}
+gemma-2-9b qwen2.5-7b-instruct online_replace 5 {'wald': 0.9, 'naive': 0.319, 'perstep': 0.012, 'avg_ins': 0.058, 'avg_rep': 0.004}
+gemma-2-9b qwen2.5-7b-instruct online_replace 10 {'wald': 1.0, 'naive': 0.984, 'perstep': 0.099, 'avg_ins': 0.298, 'avg_rep': 0.001}
+gemma-2-9b qwen2.5-7b-instruct online_replace 25 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 0.976, 'avg_rep': 0.003}
+gemma-2-9b qwen2.5-7b-instruct online_replace 50 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 1.0, 'avg_rep': 0.002}
+gemma-2-9b qwen2.5-7b-instruct online_replace 100 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 1.0, 'avg_rep': 0.008}
+gemma-2-9b qwen2.5-7b-instruct online_replace 200 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 1.0, 'avg_rep': 0.004}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct burst_random 0 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct burst_random 10 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct burst_random 25 {'wald': 0.008, 'naive': 0.006, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct burst_random 50 {'wald': 0.02, 'naive': 0.017, 'perstep': 0.012, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct burst_random 100 {'wald': 0.048, 'naive': 0.042, 'perstep': 0.039, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct burst_random 200 {'wald': 0.09, 'naive': 0.078, 'perstep': 0.066, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct burst_random 400 {'wald': 0.197, 'naive': 0.175, 'perstep': 0.13, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct spread 0 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct spread 10 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct spread 25 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct spread 50 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct spread 100 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct spread 200 {'wald': 0.001, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct spread 400 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct online_replace 0 {'wald': 0.001, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct online_replace 5 {'wald': 0.223, 'naive': 0.012, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct online_replace 10 {'wald': 0.955, 'naive': 0.737, 'perstep': 0.0, 'avg_ins': 0.003, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct online_replace 25 {'wald': 1.0, 'naive': 1.0, 'perstep': 0.834, 'avg_ins': 0.254, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct online_replace 50 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 0.898, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct online_replace 100 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 1.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct online_replace 200 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 1.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b burst_random 0 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b burst_random 10 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b burst_random 25 {'wald': 0.007, 'naive': 0.004, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b burst_random 50 {'wald': 0.017, 'naive': 0.014, 'perstep': 0.009, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b burst_random 100 {'wald': 0.047, 'naive': 0.039, 'perstep': 0.037, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b burst_random 200 {'wald': 0.079, 'naive': 0.066, 'perstep': 0.059, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b burst_random 400 {'wald': 0.198, 'naive': 0.18, 'perstep': 0.117, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b spread 0 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b spread 10 {'wald': 0.003, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b spread 25 {'wald': 0.001, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b spread 50 {'wald': 0.001, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b spread 100 {'wald': 0.0, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b spread 200 {'wald': 0.001, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b spread 400 {'wald': 0.001, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b online_replace 0 {'wald': 0.001, 'naive': 0.0, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b online_replace 5 {'wald': 0.277, 'naive': 0.009, 'perstep': 0.0, 'avg_ins': 0.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b online_replace 10 {'wald': 0.974, 'naive': 0.763, 'perstep': 0.0, 'avg_ins': 0.003, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b online_replace 25 {'wald': 1.0, 'naive': 1.0, 'perstep': 0.845, 'avg_ins': 0.266, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b online_replace 50 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 0.948, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b online_replace 100 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 1.0, 'avg_rep': 0.0}
+mistral-7b-instruct-v0.3 gemma-2-9b online_replace 200 {'wald': 1.0, 'naive': 1.0, 'perstep': 1.0, 'avg_ins': 1.0, 'avg_rep': 0.0}
+method                                        avg_ins   avg_rep     naive   perstep      wald
+attacked                 attack         B                                                    
+gemma-2-9b               burst_random   0    0.002000  0.002000  0.002000  0.001000  0.079000
+                                        10   0.002000  0.002000  0.003000  0.001000  0.069000
+                                        25   0.005000  0.005000  0.027000  0.008000  0.119000
+                                        50   0.004000  0.004000  0.073000  0.064000  0.214000
+                                        100  0.006000  0.006000  0.219000  0.154000  0.392000
+                                        200  0.005000  0.004000  0.578000  0.233000  0.760000
+                                        400  0.003000  0.002000  0.995000  0.303000  0.999000
+                         online_replace 0    0.004000  0.004000  0.004000  0.004000  0.081000
+                                        5    0.058000  0.004000  0.319000  0.012000  0.900000
+                                        10   0.298000  0.001000  0.984000  0.099000  1.000000
+                                        25   0.976000  0.003000  1.000000  1.000000  1.000000
+                                        50   1.000000  0.002000  1.000000  1.000000  1.000000
+                                        100  1.000000  0.008000  1.000000  1.000000  1.000000
+                                        200  1.000000  0.004000  1.000000  1.000000  1.000000
+                         spread         0    0.002000  0.002000  0.002000  0.000000  0.063000
+                                        10   0.004000  0.004000  0.004000  0.001000  0.074000
+                                        25   0.002000  0.002000  0.002000  0.002000  0.087000
+                                        50   0.001000  0.001000  0.001000  0.000000  0.117000
+                                        100  0.001000  0.001000  0.005000  0.000000  0.165000
+                                        200  0.004000  0.000000  0.084000  0.000000  0.466000
+                                        400  0.001000  0.000000  0.963000  0.001000  0.998000
+llama-3.1-8b-instruct    burst_random   0    0.000000  0.000000  0.000000  0.000000  0.004667
+                                        10   0.000000  0.000000  0.000000  0.000000  0.005333
+                                        25   0.000667  0.000667  0.004667  0.000667  0.008000
+                                        50   0.000333  0.000333  0.011667  0.009667  0.021333
+                                        100  0.000000  0.000000  0.040667  0.039333  0.054333
+                                        200  0.000000  0.000000  0.092667  0.074333  0.112000
+                                        400  0.000000  0.000000  0.217667  0.119667  0.251333
+                         online_replace 0    0.000000  0.000000  0.000000  0.000000  0.003000
+                                        5    0.005000  0.000000  0.057667  0.000333  0.230667
+                                        10   0.055000  0.000667  0.774333  0.003000  0.871000
+                                        25   0.390667  0.000000  1.000000  0.820667  1.000000
+                                        50   0.885667  0.000000  1.000000  1.000000  1.000000
+                                        100  1.000000  0.000000  1.000000  1.000000  1.000000
+                                        200  1.000000  0.000000  1.000000  1.000000  1.000000
+                         spread         0    0.000000  0.000000  0.000000  0.000000  0.004333
+                                        10   0.000000  0.000000  0.000000  0.000000  0.003667
+                                        25   0.000000  0.000000  0.000000  0.000000  0.002333
+                                        50   0.000333  0.000333  0.000333  0.000000  0.004000
+                                        100  0.000000  0.000000  0.000333  0.000000  0.007000
+                                        200  0.000000  0.000000  0.000000  0.000000  0.006000
+                                        400  0.000333  0.000000  0.001667  0.000000  0.018333
+mistral-7b-instruct-v0.3 burst_random   0    0.000000  0.000000  0.000000  0.000000  0.000000
+                                        10   0.000000  0.000000  0.000000  0.000000  0.000000
+                                        25   0.000000  0.000000  0.005000  0.000000  0.007500
+                                        50   0.000000  0.000000  0.015500  0.010500  0.018500
+                                        100  0.000000  0.000000  0.040500  0.038000  0.047500
+                                        200  0.000000  0.000000  0.072000  0.062500  0.084500
+                                        400  0.000000  0.000000  0.177500  0.123500  0.197500
+                         online_replace 0    0.000000  0.000000  0.000000  0.000000  0.001000
+                                        5    0.000000  0.000000  0.010500  0.000000  0.250000
+                                        10   0.003000  0.000000  0.750000  0.000000  0.964500
+                                        25   0.260000  0.000000  1.000000  0.839500  1.000000
+                                        50   0.923000  0.000000  1.000000  1.000000  1.000000
+                                        100  1.000000  0.000000  1.000000  1.000000  1.000000
+                                        200  1.000000  0.000000  1.000000  1.000000  1.000000
+                         spread         0    0.000000  0.000000  0.000000  0.000000  0.000000
+                                        10   0.000000  0.000000  0.000000  0.000000  0.001500
+                                        25   0.000000  0.000000  0.000000  0.000000  0.000500
+                                        50   0.000000  0.000000  0.000000  0.000000  0.000500
+                                        100  0.000000  0.000000  0.000000  0.000000  0.000000
+                                        200  0.000000  0.000000  0.000000  0.000000  0.001000
+                                        400  0.000000  0.000000  0.000000  0.000000  0.000500

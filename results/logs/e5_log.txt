@@ -1,0 +1,41 @@
+script=e5_regime.py version=Python 3.14.7 start=2026-10-04T20:43:14-04:00
+reps 250/2000
+reps 500/2000
+reps 750/2000
+reps 1000/2000
+reps 1250/2000
+reps 1500/2000
+reps 1750/2000
+reps 2000/2000
+                                     0         1         2         3
+cost                               ins       rep   exp_ins   exp_rep
+frac_certified_at_T1            0.9985    0.9985    0.9985    0.9985
+median_B_at_T1                   109.0      52.0     109.0      51.0
+max_median_B                     109.0      52.0     109.0      52.0
+argmax_median_B                    996       996       996       996
+frac_dropped_within_N              1.0       1.0       1.0       1.0
+T_drop_median                   1420.0    1420.0    1420.0    1420.0
+T_drop_q10                      1240.0    1240.0    1240.0    1240.0
+T_drop_q90                      1620.0    1620.0    1620.0    1620.0
+delay_median                     420.0     420.0     420.0     420.0
+delay_q10                        240.0     240.0     240.0     240.0
+delay_q90                        620.0     620.0     620.0     620.0
+frac_recertified_after_drop     0.6055    0.6055     0.611     0.611
+restart_frac_ever_certified        0.0       0.0       NaN       NaN
+restart_max_B                       -1        -1        -1        -1
+frac_certified_some_t_ge_2T1    0.0005    0.0005    0.0005    0.0005
+frac_cells_value_differs       0.00835  0.003916   0.00835  0.003916
+frac_cells_status_differs     0.000163  0.000163  0.000163  0.000163
+frac_B_ge0_at_1000              0.9985    0.9985    0.9985    0.9985
+median_B_at_1000                 109.0      52.0     109.0      51.0
+frac_B_ge0_at_1100                0.99      0.99      0.99      0.99
+median_B_at_1100                  83.0      39.0      83.0      39.0
+frac_B_ge0_at_1500               0.328     0.328     0.328     0.328
+median_B_at_1500                  -1.0      -1.0      -1.0      -1.0
+frac_B_ge0_at_2000              0.0005    0.0005    0.0005    0.0005
+median_B_at_2000                  -1.0      -1.0      -1.0      -1.0
+frac_B_ge0_at_3000                 0.0       0.0       0.0       0.0
+median_B_at_3000                  -1.0      -1.0      -1.0      -1.0
+frac_B_ge0_at_5000                 0.0       0.0       0.0       0.0
+median_B_at_5000                  -1.0      -1.0      -1.0      -1.0
+rc=0 end=2026-10-04T20:43:47-04:00

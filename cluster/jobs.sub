@@ -1,0 +1,18 @@
+# HTCondor submit file: one job per experiment script, four cores each.
+# Submit from the repository root:   condor_submit cluster/jobs.sub
+# Standard output goes to results/logs/<name>.<cluster>.out.
+executable   = cluster/run.sh
+arguments    = $(script)
+environment  = "REPO_DIR=$ENV(PWD)"
+getenv       = true
+output       = results/logs/$(name).$(Cluster).out
+error        = results/logs/$(name).$(Cluster).err
+log          = results/logs/$(name).$(Cluster).log
+request_cpus   = 4
+request_memory = 8GB
+queue name, script from (
+  e5,  e5_regime.py
+  e7a, e7_benchmark.py a
+  e9,  e9_average_rate.py
+  e10, e10_breakdown.py
+)

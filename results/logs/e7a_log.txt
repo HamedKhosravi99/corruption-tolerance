@@ -1,0 +1,41 @@
+script=e7_benchmark.py version=Python 3.14.7 start=2026-10-04T20:46:50-04:00
+llama-3.1-8b-instruct qwen2.5-7b-instruct -1 -1
+llama-3.1-8b-instruct gemma-2-9b -1 -1
+llama-3.1-8b-instruct mistral-7b-instruct-v0.3 -1 -1
+qwen2.5-7b-instruct llama-3.1-8b-instruct 2264 1102
+qwen2.5-7b-instruct gemma-2-9b -1 -1
+qwen2.5-7b-instruct mistral-7b-instruct-v0.3 1607 781
+gemma-2-9b llama-3.1-8b-instruct 2117 1032
+gemma-2-9b qwen2.5-7b-instruct -1 -1
+gemma-2-9b mistral-7b-instruct-v0.3 1469 714
+mistral-7b-instruct-v0.3 llama-3.1-8b-instruct 470 229
+mistral-7b-instruct-v0.3 qwen2.5-7b-instruct -1 -1
+mistral-7b-instruct-v0.3 gemma-2-9b -1 -1
+                       i                        j     n  wins  losses  ties  win_rate     D  D_rep  B_ins  ratio_ins  tau0_ins  tau10_ins  tau25_ins  tau50_ins  B_rep  ratio_rep  tau0_rep  tau10_rep  tau25_rep  tau50_rep  B_lead_ins  B_lead_rep
+   llama-3.1-8b-instruct      qwen2.5-7b-instruct 14042  1156    3571  9315  0.414008 -2415      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN          -1          -1
+   llama-3.1-8b-instruct               gemma-2-9b 14042  1257    3532  9253  0.418993 -2275      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN          -1          -1
+   llama-3.1-8b-instruct mistral-7b-instruct-v0.3 14042  1870    2531  9641  0.476463  -661      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN          -1          -1
+     qwen2.5-7b-instruct    llama-3.1-8b-instruct 14042  3571    1156  9315  0.585992  2415   1208   2264   0.937474      61.0      132.0      235.0      363.0   1102   0.912252      61.0      235.0      391.0      783.0        2081        1026
+     qwen2.5-7b-instruct               gemma-2-9b 14042  1550    1410 11082  0.504985   140     70     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN          -1          -1
+     qwen2.5-7b-instruct mistral-7b-instruct-v0.3 14042  2841    1087 10114  0.562455  1754    877   1607   0.916192      91.0      145.0      221.0      479.0    781   0.890536      91.0      223.0      512.0     1076.0        1411         696
+              gemma-2-9b    llama-3.1-8b-instruct 14042  3532    1257  9253  0.581007  2275   1138   2117   0.930549     134.0      260.0      367.0      556.0   1032   0.906854     134.0      362.0      601.0      945.0        1939         956
+              gemma-2-9b      qwen2.5-7b-instruct 14042  1410    1550 11082  0.495015  -140      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN          -1          -1
+              gemma-2-9b mistral-7b-instruct-v0.3 14042  2672    1058 10312  0.557470  1614    807   1469   0.910161     204.0      331.0      471.0      789.0    714   0.884758     204.0      468.0      852.0     1425.0        1269         626
+mistral-7b-instruct-v0.3    llama-3.1-8b-instruct 14042  2531    1870  9641  0.523537   661    331    470   0.711044    1281.0     1366.0     1694.0     2171.0    229   0.691843    1281.0     1673.0     2177.0     3336.0         303         149
+mistral-7b-instruct-v0.3      qwen2.5-7b-instruct 14042  1087    2841 10114  0.437545 -1754      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN          -1          -1
+mistral-7b-instruct-v0.3               gemma-2-9b 14042  1058    2672 10312  0.442530 -1614      0     -1        NaN       NaN        NaN        NaN        NaN     -1        NaN       NaN        NaN        NaN        NaN          -1          -1
+                                                        B_final_min  B_final_max  tau0_med  tau0_q10  tau0_q90  tau50_med
+i                        j                        cost                                                                   
+gemma-2-9b               llama-3.1-8b-instruct    ins          2117         2117     101.5      61.9     204.1      509.5
+                                                  rep          1032         1032     101.5      61.9     204.1      936.0
+                         mistral-7b-instruct-v0.3 ins          1469         1469     160.5      74.7     292.2      703.0
+                                                  rep           714          714     160.5      74.7     292.2     1319.0
+mistral-7b-instruct-v0.3 llama-3.1-8b-instruct    ins           470          470    1195.0     338.3    2299.2     3002.0
+                                                  rep           229          229    1195.0     338.3    2299.2     4505.0
+qwen2.5-7b-instruct      gemma-2-9b               ins            -1           -1    6780.0    1277.2   11463.8        NaN
+                                                  rep            -1           -1    6780.0    1277.2   11463.8        NaN
+                         llama-3.1-8b-instruct    ins          2264         2264      95.5      54.7     187.1      473.0
+                                                  rep          1102         1102      95.5      54.7     187.1      887.5
+                         mistral-7b-instruct-v0.3 ins          1607         1607     141.0      60.0     283.4      664.0
+                                                  rep           781          781     141.0      60.0     283.4     1220.0
+rc=0 end=2026-10-04T20:47:10-04:00
