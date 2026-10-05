@@ -1,5 +1,5 @@
 """E9: the lead tolerance (exponential wealth, Theorem 5.7) against the betting tolerance
-(Theorem 5.1) on i.i.d. honest records with no attack.
+(Theorem 5.1) on i.i.d. uncorrupted records with no attack.
 
 For each margin delta and tie share, REPS repetitions of T records are drawn once and both
 certificates are computed on the same records, with the insertion and the replacement cost and

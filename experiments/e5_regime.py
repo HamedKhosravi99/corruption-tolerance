@@ -1,9 +1,9 @@
 """E5: certificate persistence under a regime shift (no attack).
 
-Honest records are independent and binary (no ties). Model i wins with probability
+Uncorrupted records are independent and binary (no ties). Model i wins with probability
 p1 = 0.6 for the first T1 = 1000 records and p2 = 0.4 afterwards. The null H_0 (i never
 has an edge) is false, so the claim 'i beats j' is correct in the sense of Section 2.1. The
-honest cumulative margin Delta_t (Section 2.1) is positive before t = 2 T1 = 2000 and at most
+uncorrupted cumulative margin Delta_t (Section 2.1) is positive before t = 2 T1 = 2000 and at most
 zero from then on. This experiment measures how long the betting tolerance (Theorem 5.1) stays
 nonnegative after the switch and how quickly it returns to -1, for the insertion and replacement
 costs and the default 14-bet grid, with no attack (N_t = 0 throughout). The lead tolerance

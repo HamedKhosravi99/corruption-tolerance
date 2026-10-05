@@ -1,4 +1,4 @@
-"""E2: growth of the certified budget and time to certify, under honest data
+"""E2: growth of the certified budget and time to certify, under uncorrupted data
 W ~ Bern(1/2 + delta), i.i.d., no attack. Main grid certificate (deflate each bet by its
 cost, then average); the union-over-bets variant is recorded for comparison (tau_union).
 
@@ -30,7 +30,7 @@ OUT = os.path.join(ROOT, "results")
 
 
 def g(lam, delta):
-    """Expected log growth of one honest record under Bern(1/2 + delta)."""
+    """Expected log growth of one uncorrupted record under Bern(1/2 + delta)."""
     return (0.5 + delta) * np.log1p(lam / 2) + (0.5 - delta) * np.log1p(-lam / 2)
 
 

@@ -6,7 +6,7 @@ votes), an attacker works AGAINST the leader. Two attacks, B corrupted records e
   replacement denial flip B observed wins of i (W = 1 -> 0), the first B wins after the burst time.
 Validity is not at stake (the claim is true, so no statement can be false); the question is
 how much certified budget the attacker destroys and how fast the certificate recovers once
-honest votes resume. Because the final grid wealth depends on the record only through the
+uncorrupted votes resume. Because the final grid wealth depends on the record only through the
 numbers of wins and losses (App. D.1), the final certificate under either attack is the same
 wherever the burst is placed; the recovery path is computed for a burst at the midpoint.
 
@@ -14,7 +14,7 @@ Metrics per pair, attack and B:
   B_clean, B_attacked           final certificates (insertion and replacement cost)
   damage, damage_per_record     B_clean - B_attacked and its ratio to B
   decert_budget                 smallest B at which the final certificate is -1 (bisection)
-  T_recover0, T_recover50       honest records after the burst until Bhat_t >= 0 and until
+  T_recover0, T_recover50       uncorrupted records after the burst until Bhat_t >= 0 and until
                                 Bhat_t >= 0.5 * Bhat_clean at the burst time (NaN: not within data)
 Outputs: results/e6_suppress.csv, results/e6_decert.csv, results/raw/e6_paths.npz.
 Needs the Arena extract (see data/arena/README.md).
@@ -103,7 +103,7 @@ def run(d):
                     paths[f"{x}__{y}__{attack}_B{B}_{k}"] = path.astype(np.int32)
                     end = len(W) - 1
                     pre = clean[k][t0 - 1]              # certificate just before the burst
-                    after = path[t0 + (B if attack == "insert_losses" else 0):]  # honest records after the burst
+                    after = path[t0 + (B if attack == "insert_losses" else 0):]  # uncorrupted records after the burst
                     r0 = np.flatnonzero(after >= 0)
                     r50 = np.flatnonzero(after >= 0.5 * pre)
                     rows.append(dict(leader=x, other=y, n=n, attack=attack, B=B, cost=k,

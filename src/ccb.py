@@ -170,7 +170,7 @@ def _pad(rows, flags, width):
 
 
 def attack_burst_start(H, B):
-    """Insert B wins before the first honest record."""
+    """Insert B wins before the first uncorrupted record."""
     R, T = H.shape
     W = np.concatenate([np.ones((R, B)), H], axis=1)
     F = np.concatenate([np.ones((R, B)), np.zeros((R, T))], axis=1)
@@ -178,7 +178,7 @@ def attack_burst_start(H, B):
 
 
 def attack_burst_trigger(H, B, lam, trigger):
-    """Honest records until the observed log-wealth (bet lam) first reaches `trigger`,
+    """Uncorrupted records until the observed log-wealth (bet lam) first reaches `trigger`,
     then insert B wins. If the trigger is never reached no budget is spent."""
     R, T = H.shape
     L = log_wealth(H, lam)
@@ -195,7 +195,7 @@ def attack_burst_trigger(H, B, lam, trigger):
 
 
 def attack_spread(H, B, rng):
-    """Before each honest record, insert a forged win with probability q = B/T, until
+    """Before each uncorrupted record, insert a forged win with probability q = B/T, until
     the budget is spent (a per-step, 'Huber-like' attacker)."""
     R, T = H.shape
     q = B / T
@@ -212,7 +212,7 @@ def attack_spread(H, B, rng):
 
 
 def attack_online_replace(H, B):
-    """Value-dependent, online: overwrite each honest loss (W=0) by a win as soon as it
+    """Value-dependent, online: overwrite each uncorrupted loss (W=0) by a win as soon as it
     is seen, until B records have been replaced. Needs no look-ahead."""
     loss = H == 0
     sel = loss & (np.cumsum(loss, axis=1) <= B)
@@ -227,7 +227,7 @@ def optimal_offline_replace_violation(H, B, lam, c_log, alpha=ALPHA, eps=0.0):
     Replacing a loss at position s <= t raises log K_t by d = log(M_+/m_-) (with the
     per-step shift eps, d = log((1+lam(1/2-eps))/(1-lam(1/2+eps)))). The attacker's best
     value of S_t therefore uses N = min(B, L_t) replacements before t, where L_t is the
-    number of honest losses up to t. Returns max_t S_t.
+    number of uncorrupted losses up to t. Returns max_t S_t.
     """
     Lw = log_wealth(H, lam, eps)
     d = np.log1p(lam * (0.5 - eps)) - np.log1p(-lam * (0.5 + eps))
