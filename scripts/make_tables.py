@@ -47,7 +47,7 @@ def tau_table():
              r"$\delta$ & cost & $b$ & mean $\tau_b$ & union & upper \eqref{eq:tau-upper} & lower (Cor.~\ref{cor:lower-mean}) & median \\", r"\midrule"]
     for _, r in t[t.b.isin([0, 10, 50, 100, 400])].iterrows():
         lines.append(f"{r.delta:.2f} & {r.kind[:3]}. & {int(r.b)} & {r.mean_tau:,.0f} & {r.mean_tau_union:,.0f} & "
-                     f"{r.upper:,.0f} & {r.lower:,.0f} & {r.median_tau:,.0f} \\\\")
+                     f"{r.upper:,.0f} & {r.lower:,.0f} & {int(dec(r.median_tau, 0)):,} \\\\")
     lines += [r"\bottomrule", r"\end{tabular}"]
     open(os.path.join(TAB, "tab_tau.tex"), "w").write("\n".join(lines))
 
@@ -238,7 +238,7 @@ def average_table():
             b = g[(g.kind == kind) & (g.family == "bet")].iloc[0]
             e = g[(g.kind == kind) & (g.family == "exp")].iloc[0]
             lines.append(f"{delta:.2f} & {int(round((1 - pi) * 100))}\\% & {kind[:3]}. & "
-                         f"{b['median']:.3f} ({b.q10:.3f}--{b.q90:.3f}) & {e['median']:.3f} ({e.q10:.3f}--{e.q90:.3f}) & "
+                         f"{dec(b['median'], 3)} ({dec(b.q10, 3)}--{dec(b.q90, 3)}) & {dec(e['median'], 3)} ({dec(e.q10, 3)}--{dec(e.q90, 3)}) & "
                          f"{b.limit_rate:.3f}, {e.limit_rate:.3f} \\\\")
     lines += [r"\bottomrule", r"\end{tabular}"]
     open(os.path.join(TAB, "tab_average.tex"), "w").write("\n".join(lines))
