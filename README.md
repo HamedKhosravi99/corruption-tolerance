@@ -40,6 +40,7 @@ $\hat B_t$ of the first $t$ records were corrupted. The code implements
 ```
 .
 ├── README.md
+├── LICENSE                   MIT License for the code
 ├── requirements.txt          pinned Python dependencies
 ├── Makefile                  shortcuts for the commands of Sections 4 and 6
 ├── src/                      core library (imported by every script)
@@ -222,4 +223,6 @@ digits across NumPy versions and platforms, which never changes a reported numbe
 
 ## License and citation
 
-To be added after the review period.
+The code is released under the MIT License (see `LICENSE`). The files in `data/` and the per-item
+tables derived from them in `results/raw/` keep the terms of their original sources (Section 5).
+A citation will be added after the review period.
