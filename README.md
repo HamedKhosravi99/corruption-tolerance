@@ -1,7 +1,7 @@
-# Corruption Tolerance for Online Ranking of Large Language Models: code and results
+# Certified Corruption Budgets: Anytime-Valid Leaderboard Claims under Adaptive Rigging: code and results
 
 This repository contains the code, the input data and the saved results for the paper
-*Corruption Tolerance for Online Ranking of Large Language Models* (anonymous submission).
+*Certified Corruption Budgets: Anytime-Valid Leaderboard Claims under Adaptive Rigging* (anonymous submission).
 Every figure and table of the paper is rebuilt from the saved results in `results/` by two
 scripts, and every experiment can be rerun from `experiments/` with fixed seeds.
 

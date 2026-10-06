@@ -94,7 +94,7 @@ def fig_validity():
     plot_rate(axes[0], df, "burst_trigger", methods, "(a) Burst of forged wins")
     plot_rate(axes[1], df, "online_replace", methods, "(b) Losses flipped")
     plot_rate(axes[2], df, "spread", methods, "(c) Forged wins at random times")
-    axes[0].set_ylabel(r"$\mathbb{P}$(some false statement)")
+    axes[0].set_ylabel(r"$\mathbb{P}$(false statement)")
     h, l = axes[1].get_legend_handles_labels()
     h = [x[0] for x in h]   # the data line of each errorbar container: no error-bar tick in the key
     l = [x + ", one bet" if x == STYLE["naive"]["label"] else x for x in l]   # E1 uses the single bet 0.2
@@ -296,7 +296,7 @@ def fig_benchmark_replay():
         ax.set_xlim(-1, None)
         ax.set_xlabel("corrupted items $B$")
         ax.grid(True, axis="y")
-    axes[0].set_ylabel(r"$\mathbb{P}$(some false statement)")
+    axes[0].set_ylabel(r"$\mathbb{P}$(false statement)")
     h, l = axes[0].get_legend_handles_labels()
     l = [x + ", grid" if x == STYLE["naive"]["label"] else x for x in l]   # the replays average over the grid
     axes[0].legend(h, l, frameon=False, loc="upper left", fontsize=5.6)
