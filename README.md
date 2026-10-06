@@ -93,7 +93,7 @@ tables identical to the committed ones and figures that differ only in their cre
 
 | Source | Used by | In this repository | Provenance |
 |---|---|---|---|
-| Chatbot Arena public battle file `clean_battle_20240814_public.json` (1,799,991 votes, 129 models, 2023-04-24 to 2024-08-14) | E4, E6 | no (no license stated; see [data/arena/README.md](data/arena/README.md)) | `https://storage.googleapis.com/arena_external_data/public/` |
+| Chatbot Arena public battle file `clean_battle_20240814_public.json` (1,799,991 votes, 129 models, 2023-04-24 to 2024-08-14) | E3, E6 | no (no license stated; see [data/arena/README.md](data/arena/README.md)) | `https://storage.googleapis.com/arena_external_data/public/` |
 | HELM MMLU per-instance results, four open-weight models, 57 subjects | E7 | `data/helm_mmlu/` (228 gzipped `per_instance_stats.json`) | HELM MMLU leaderboard, release index v1.13.0; `python experiments/e7_benchmark.py fetch` downloads them again |
 | HELM Capabilities per-item scores, 15 models, MMLU-Pro, GPQA, IFEval, Omni-MATH | E8 | `data/helm_cap/` (60 gzipped JSON, per-item scores only) | HELM Capabilities, release index v1.15.0; `python experiments/e8_frontier.py fetch` |
 | SWE-bench Verified runs of one agent with 11 models | E8 | `data/swebench_verified/` (`metadata.yaml` and gzipped `per_instance_details.json` per run) | `SWE-bench/experiments`, `evaluation/verified/`; `python experiments/e8_swebench.py fetch` |
@@ -112,13 +112,13 @@ output to `results/logs/` to keep a log, for example
 |---|---|---|---|---|
 | E1 | validity of each method under four attacks on null data | `python experiments/e1_validity.py` | ~45 min (8 processes) | `e1_validity.csv`, `raw/e1_<attack>_B<B>.npz` |
 | E2 | growth of the tolerance and time to certify on i.i.d. records | `python experiments/e2_rate.py` | ~15 min | `e2_rate.csv`, `e2_tau.csv`, `raw/e2_delta<δ>.npz` |
-| E3 | publishing the best of $V$ variants, with and without the $V/\alpha$ correction | `python experiments/e3_selection.py` | ~6 min | `e3_selection.csv`, `raw/e3_selection.npz` |
-| E4 | counts quoted in the paper (votes, models, dates, ties) | `python experiments/e4_arena.py stats` | ~5 s | standard output (`logs/e4_data_log.txt`) |
-| E4a | edge and lead tolerances on the real votes of the 20 most compared pairs | `python experiments/e4_arena.py a` | ~15 s | `e4a_pairs.csv`, `raw/e4a_paths.npz` |
-| E4b | rigging replay on three near-boundary pairs | `python experiments/e4_arena.py b` | ~20 min | `e4b_rigging.csv`, `raw/e4b_pair<k>_B<B>.npz` |
-| E4c | simultaneous tolerances over all 16,512 ordered pairs (closed testing and Bonferroni) | `python experiments/e4_arena.py call` | ~30 s | `e4c_matrix_all.npz` |
-| E4c | the same over the 90 pairs of the ten displayed models only (comparison) | `python experiments/e4_arena.py c` | ~30 s | `e4c_matrix.npz` |
-| E4c | lead tolerance with Bonferroni over all pairs (computed, not reported in the paper) | `python experiments/e4_arena.py lead` | ~20 s | `e4c_lead_matrix_all.npz` |
+| E4 | publishing the best of $V$ variants, with and without the $V/\alpha$ correction | `python experiments/e3_selection.py` | ~6 min | `e3_selection.csv`, `raw/e3_selection.npz` |
+| E3 | counts quoted in the paper (votes, models, dates, ties) | `python experiments/e4_arena.py stats` | ~5 s | standard output (`logs/e4_data_log.txt`) |
+| E3a | edge and lead tolerances on the real votes of the 20 most compared pairs | `python experiments/e4_arena.py a` | ~15 s | `e4a_pairs.csv`, `raw/e4a_paths.npz` |
+| E3b | rigging replay on three near-boundary pairs | `python experiments/e4_arena.py b` | ~20 min | `e4b_rigging.csv`, `raw/e4b_pair<k>_B<B>.npz` |
+| E3c | simultaneous tolerances over all 16,512 ordered pairs (closed testing and Bonferroni) | `python experiments/e4_arena.py call` | ~30 s | `e4c_matrix_all.npz` |
+| E3c | the same over the 90 pairs of the ten displayed models only (comparison) | `python experiments/e4_arena.py c` | ~30 s | `e4c_matrix.npz` |
+| E3c | lead tolerance with Bonferroni over all pairs (computed, not reported in the paper) | `python experiments/e4_arena.py lead` | ~20 s | `e4c_lead_matrix_all.npz` |
 | E5 | regime shift (win probability 0.6, then 0.4), edge and lead tolerances | `python experiments/e5_regime.py --figure` | ~1 min | `e5_regime.csv`, `raw/e5_regime.npz`, `e5_regime_preview.*` |
 | E6 | attacks on correct claims on the real votes | `python experiments/e6_suppress.py` | ~10 s | `e6_suppress.csv`, `e6_decert.csv`, `raw/e6_paths.npz` |
 | E7 | HELM MMLU: tolerances, time to certify, rigging replay | `python experiments/e7_benchmark.py fetch a b fig` | a: ~40 s, b: ~36 min | `raw/e7_mmlu_items.csv.gz`, `e7a_pairs.csv`, `e7a_perm.csv`, `raw/e7a_<pair>.npz`, `e7b_contamination.csv`, `e7_preview.*` |
@@ -128,7 +128,7 @@ output to `results/logs/` to keep a log, for example
 | E9 | lead tolerance against edge tolerance on i.i.d. records, with and without ties | `python experiments/e9_average_rate.py` | ~2 min | `e9_average_rate.csv`, `raw/e9_average.npz` |
 | E10 | fixed-time Wald and Hoeffding breakdown counts beside the certificates | `python experiments/e10_breakdown.py` | ~1 s | `e10_breakdown.csv` |
 
-E4 and E6 need the Arena extract (Section 5). E10 reads `e4a_pairs.csv` and `e7a_pairs.csv`.
+E3 and E6 need the Arena extract (Section 5). E10 reads `e4a_pairs.csv` and `e7a_pairs.csv`.
 `make experiments` runs everything that does not need the Arena data or the network.
 
 ## 7. Map from paper results to code and files
@@ -158,10 +158,10 @@ saved results; "Built by" is the function that turns them into the paper's figur
 | Table 2 | map of the experiments (text only) | — | — | — |
 | Table 3 | E1, all attacks and budgets | `experiments/e1_validity.py` | `results/e1_validity.csv`, `results/raw/e1_*.npz` | `make_tables.py: e1_table` → `tables/tab_e1.tex` |
 | Table 4 | E2, mean and median records to certify, union variant, upper and lower bounds | `experiments/e2_rate.py` | `results/e2_tau.csv` | `make_tables.py: tau_table` → `tables/tab_tau.tex` |
-| Table 5 | E3, best of $V$ variants | `experiments/e3_selection.py` | `results/e3_selection.csv` | `make_tables.py: selection_table` → `tables/tab_selection.tex` |
-| Table 6 | E4a, edge, lead and Wald counts for 20 Arena pairs | `experiments/e4_arena.py a`, `experiments/e10_breakdown.py` | `results/e4a_pairs.csv`, `results/e10_breakdown.csv` | `make_tables.py: arena_pairs_table` → `tables/tab_arena_pairs.tex` |
-| Figure 3 | E4c, simultaneous tolerances of the ten displayed models (family of all 16,512 ordered pairs) | `experiments/e4_arena.py call` | `results/e4c_matrix_all.npz` | `make_figures.py: fig_matrix` → `figures/fig_arena_matrix.pdf` |
-| Table 7 | E4b, rigging replay per pair | `experiments/e4_arena.py b` | `results/e4b_rigging.csv` → `results/e4b_table.csv` | `make_tables.py: rigging_table` → `tables/tab_rigging_full.tex` |
+| Table 5 | E3a, edge, lead and Wald counts for 20 Arena pairs | `experiments/e4_arena.py a`, `experiments/e10_breakdown.py` | `results/e4a_pairs.csv`, `results/e10_breakdown.csv` | `make_tables.py: arena_pairs_table` → `tables/tab_arena_pairs.tex` |
+| Figure 3 | E3c, simultaneous tolerances of the ten displayed models (family of all 16,512 ordered pairs) | `experiments/e4_arena.py call` | `results/e4c_matrix_all.npz` | `make_figures.py: fig_matrix` → `figures/fig_arena_matrix.pdf` |
+| Table 6 | E3b, rigging replay per pair | `experiments/e4_arena.py b` | `results/e4b_rigging.csv` → `results/e4b_table.csv` | `make_tables.py: rigging_table` → `tables/tab_rigging_full.tex` |
+| Table 7 | E4, best of $V$ variants | `experiments/e3_selection.py` | `results/e3_selection.csv` | `make_tables.py: selection_table` → `tables/tab_selection.tex` |
 | Figure 4 | E5, regime shift: edge and lead tolerances, empirical win rates | `experiments/e5_regime.py` | `results/raw/e5_regime.npz`, `results/e5_regime.csv` | `make_figures.py: fig_regime` → `figures/fig_regime.pdf` |
 | Table 8 | E6, attacks on correct claims | `experiments/e6_suppress.py` | `results/e6_suppress.csv`, `results/e6_decert.csv` | `make_tables.py: suppress_table` → `tables/tab_suppress.tex` |
 | Table 9 | E7, MMLU: edge, lead and Wald counts, time to certify | `experiments/e7_benchmark.py a`, `experiments/e10_breakdown.py` | `results/e7a_pairs.csv`, `results/e7a_perm.csv`, `results/e10_breakdown.csv`; input `data/helm_mmlu/*.json.gz` | `make_tables.py: mmlu_table` → `tables/tab_mmlu.tex` |
@@ -208,10 +208,10 @@ The code predates some of the paper's terms.
 
 ## 10. Computing environment and determinism
 
-* E1 to E4 (except the all-pairs closed test of E4c) ran on a 12-core workstation (Windows, Python 3).
-* The all-pairs closed test of E4c, E6 to E8, and the figures and tables ran on a laptop (macOS,
+* E1 to E3 (except the all-pairs closed test of E3c) ran on a 12-core workstation (Windows, Python 3).
+* The all-pairs closed test of E3c, E6 to E8, and the figures and tables ran on a laptop (macOS,
   Python 3.9.6) with the versions pinned in `requirements.txt`.
-* E5, E9, E10, the lead-tolerance runs of E4a, E4c and E7, and the reruns that reproduce the earlier
+* E5, E9, E10, the lead-tolerance runs of E3a, E3c and E7, and the reruns that reproduce the earlier
   numbers ran as four-core HTCondor jobs on a Linux cluster (Python 3.14.7, NumPy 2.5.3,
   pandas 3.0.5). The job files are in `cluster/`.
 
