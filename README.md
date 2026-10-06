@@ -112,13 +112,13 @@ output to `results/logs/` to keep a log, for example
 |---|---|---|---|---|
 | E1 | validity of each method under four attacks on null data | `python experiments/e1_validity.py` | ~45 min (8 processes) | `e1_validity.csv`, `raw/e1_<attack>_B<B>.npz` |
 | E2 | growth of the tolerance and time to certify on i.i.d. records | `python experiments/e2_rate.py` | ~15 min | `e2_rate.csv`, `e2_tau.csv`, `raw/e2_delta<δ>.npz` |
-| E4 | publishing the best of $V$ variants, with and without the $V/\alpha$ correction | `python experiments/e3_selection.py` | ~6 min | `e3_selection.csv`, `raw/e3_selection.npz` |
 | E3 | counts quoted in the paper (votes, models, dates, ties) | `python experiments/e4_arena.py stats` | ~5 s | standard output (`logs/e4_data_log.txt`) |
 | E3a | edge and lead tolerances on the real votes of the 20 most compared pairs | `python experiments/e4_arena.py a` | ~15 s | `e4a_pairs.csv`, `raw/e4a_paths.npz` |
 | E3b | rigging replay on three near-boundary pairs | `python experiments/e4_arena.py b` | ~20 min | `e4b_rigging.csv`, `raw/e4b_pair<k>_B<B>.npz` |
 | E3c | simultaneous tolerances over all 16,512 ordered pairs (closed testing and Bonferroni) | `python experiments/e4_arena.py call` | ~30 s | `e4c_matrix_all.npz` |
 | E3c | the same over the 90 pairs of the ten displayed models only (comparison) | `python experiments/e4_arena.py c` | ~30 s | `e4c_matrix.npz` |
 | E3c | lead tolerance with Bonferroni over all pairs (computed, not reported in the paper) | `python experiments/e4_arena.py lead` | ~20 s | `e4c_lead_matrix_all.npz` |
+| E4 | publishing the best of $V$ variants, with and without the $V/\alpha$ correction | `python experiments/e3_selection.py` | ~6 min | `e3_selection.csv`, `raw/e3_selection.npz` |
 | E5 | regime shift (win probability 0.6, then 0.4), edge and lead tolerances | `python experiments/e5_regime.py --figure` | ~1 min | `e5_regime.csv`, `raw/e5_regime.npz`, `e5_regime_preview.*` |
 | E6 | attacks on correct claims on the real votes | `python experiments/e6_suppress.py` | ~10 s | `e6_suppress.csv`, `e6_decert.csv`, `raw/e6_paths.npz` |
 | E7 | HELM MMLU: tolerances, time to certify, rigging replay | `python experiments/e7_benchmark.py fetch a b fig` | a: ~40 s, b: ~36 min | `raw/e7_mmlu_items.csv.gz`, `e7a_pairs.csv`, `e7a_perm.csv`, `raw/e7a_<pair>.npz`, `e7b_contamination.csv`, `e7_preview.*` |
@@ -128,7 +128,7 @@ output to `results/logs/` to keep a log, for example
 | E9 | lead tolerance against edge tolerance on i.i.d. records, with and without ties | `python experiments/e9_average_rate.py` | ~2 min | `e9_average_rate.csv`, `raw/e9_average.npz` |
 | E10 | fixed-time Wald and Hoeffding breakdown counts beside the certificates | `python experiments/e10_breakdown.py` | ~1 s | `e10_breakdown.csv` |
 
-E3 and E6 need the Arena extract (Section 5). E10 reads `e4a_pairs.csv` and `e7a_pairs.csv`.
+Script and result file names keep their original numbering: the Arena experiment (E3 in the paper) is `e4_arena.py` with `e4*` results, and the selection experiment (E4 in the paper) is `e3_selection.py` with `e3_selection.csv`. E3 and E6 need the Arena extract (Section 5). E10 reads `e4a_pairs.csv` and `e7a_pairs.csv`.
 `make experiments` runs everything that does not need the Arena data or the network.
 
 ## 7. Map from paper results to code and files
