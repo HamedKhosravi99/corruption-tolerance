@@ -128,7 +128,7 @@ def rigging_table():
 
 
 def rigging_main_table():
-    """Rigging summary table (Appendix C, with the per-pair table): mean over the three E4b pairs at B = 0 / 100 / 400, burst and flip."""
+    """Rigging summary table (Table 1 in Section 6.3; the per-pair table is Table 6): mean over the three E4b pairs at B = 0 / 100 / 400, burst and flip."""
     t = pd.read_csv(os.path.join(RES, "e4b_table.csv"))
     mean = t.groupby("attack", sort=False).mean(numeric_only=True)
     names = {"wald": "Wald interval", "naive": "Undeflated betting", "perstep": "Per-step robust",

@@ -31,7 +31,7 @@ $\hat B_t$ of the first $t$ records were corrupted. The code implements
 * the **lead tolerance** (Section 4.3, Theorem 5.7): the same construction on the exponential wealth
   $Z^{(\gamma)}_t=\exp\big(\gamma\sum_{s\le t}(W_s-\tfrac12)-\gamma^2t/8\big)$, with the costs
   $\gamma/2-\gamma^2/8$ (insertion) and $\gamma$ (replacement);
-* the closed-testing and Bonferroni versions for whole leaderboards (Proposition 5.6, Corollary B.6);
+* the closed-testing and Bonferroni versions for whole leaderboards (Proposition 5.6, Corollaries B.5 and B.7);
 * the attacks, the baselines (undeflated betting, a per-step robust test, a repeated Wald interval)
   and the experiments E1 to E10 of Section 6 and Appendix C.
 
@@ -46,7 +46,7 @@ $\hat B_t$ of the first $t$ records were corrupted. The code implements
 │   ├── ccb.py                wealths, costs, edge and lead tolerances, E1 attackers
 │   ├── names.py              display names of Chatbot Arena models
 │   └── arena_extract.py      streams the public Arena battle file to a compact CSV
-├── experiments/              one script per experiment (E1 to E10)
+├── experiments/              one or two scripts per experiment (E1 to E10)
 ├── scripts/
 │   ├── make_figures.py       the paper's figures, from saved results only
 │   └── make_tables.py        the paper's tables (LaTeX), from saved results only
@@ -170,7 +170,7 @@ saved results; "Built by" is the function that turns them into the paper's figur
 | Figure 6 | E8, top-six certificate grids with certified rank bounds | as Table 10 | as Table 10 | `make_figures.py: fig_frontier` → `figures/fig_frontier.pdf` |
 | Table 11 | E9, lead against edge tolerance per record, limit rates | `experiments/e9_average_rate.py` | `results/e9_average_rate.csv`, `results/raw/e9_average.npz` | `make_tables.py: average_table` → `tables/tab_average.tex` |
 | E5 text (lead tolerance) | status agreement, medians at the switch, runs certified after $t=2{,}000$ | `experiments/e5_regime.py` | `results/e5_regime.csv` (rows `exp_ins`, `exp_rep`) | — |
-| E10 text | edge and lead tolerances against the Wald count | `experiments/e10_breakdown.py` | `results/e10_breakdown.csv` | Wald columns of Tables 6 and 9 |
+| E10 text | edge and lead tolerances against the Wald count | `experiments/e10_breakdown.py` | `results/e10_breakdown.csv` | Wald columns of Tables 5 and 9 |
 
 Tables and figures are numbered as in the submitted PDF.
 
@@ -208,7 +208,7 @@ The code predates some of the paper's terms.
 
 ## 10. Computing environment and determinism
 
-* E1 to E3 (except the all-pairs closed test of E3c) ran on a 12-core workstation (Windows, Python 3).
+* E1 to E4 (except the all-pairs closed test of E3c) ran on a 12-core workstation (Windows, Python 3).
 * The all-pairs closed test of E3c, E6 to E8, and the figures and tables ran on a laptop (macOS,
   Python 3.9.6) with the versions pinned in `requirements.txt`.
 * E5, E9, E10, the lead-tolerance runs of E3a, E3c and E7, and the reruns that reproduce the earlier

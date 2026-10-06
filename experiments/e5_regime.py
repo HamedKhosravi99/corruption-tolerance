@@ -2,7 +2,7 @@
 
 Uncorrupted records are independent and binary (no ties). Model i wins with probability
 p1 = 0.6 for the first T1 = 1000 records and p2 = 0.4 afterwards. The null H_0 (i never
-has an edge) is false, so the claim 'i beats j' is correct in the sense of Section 2.1. The
+has an edge) is false, so the edge claim is correct in the sense of Section 2.1. The
 uncorrupted cumulative margin Delta_t (Section 2.1) is positive before t = 2 T1 = 2000 and at most
 zero from then on. This experiment measures how long the betting tolerance (Theorem 5.1) stays
 nonnegative after the switch and how quickly it returns to -1, for the insertion and replacement

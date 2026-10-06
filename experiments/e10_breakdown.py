@@ -9,7 +9,7 @@ Two intervals: the two-sided 95% normal (Wald) interval mean +- 1.96 sd / sqrt(n
 of Section 6, and the Hoeffding interval mean +- sqrt(log(2/alpha) / (2 n)). Both are fixed-time
 quantities: they are what a sensitivity study of the final standings computes, and they are not
 valid under repeated looks or adaptive timing (Figure 1, the rigging replay). The deterministic
-counts of Proposition B.7 (Delta - 1 forged, ceil(Delta/2) - 1 replaced) are listed as well.
+counts of Proposition B.8 (Delta - 1 forged, ceil(Delta/2) - 1 replaced) are listed as well.
 
 Inputs: results/e4a_pairs.csv (n, mean outcome, tie share) and results/e7a_pairs.csv
 (wins, losses, ties). Output: results/e10_breakdown.csv.

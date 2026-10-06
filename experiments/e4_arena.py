@@ -362,7 +362,7 @@ def e4c_all(d, days=120, k=10):
 
 def e4c_lead(d, days=120, k=10):
     """E4c for the lead certificate (exponential wealth, Theorem 5.7) made simultaneous by the
-    Bonferroni correction of Corollary B.6 over all ordered pairs of all models in the data
+    Bonferroni correction of Corollary B.7 over all ordered pairs of all models in the data
     (closed testing does not transfer to the lead claim). Same window, catalog and displayed
     models as e4c_all. Writes e4c_lead_matrix_all.npz and prints the matrices beside the edge
     certificate's closed-testing and Bonferroni matrices from e4c_matrix_all.npz."""
